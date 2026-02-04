@@ -1,0 +1,810 @@
+PGB-1: Introduction to sequencing
+hi I'm Fabien from wi nois makers and 
+ today we'll have a look at basic 
+ sequencing on the 
+ pgb1 press the track button to enter 
+ track mode and then button one to select 
+ the kick 
+ track next press the R button to enter 
+ pattern edit mode now you can place the 
+ kick notes on the 16st step pattern 
+ press play to start the 
+ sequencer to select another instrument 
+ hold the track button and press the 
+ corresponding number for instance here 
+ button two for the 
+ snare now you can ENT the steps for the 
+ snare now repeat this procedure to 
+ switch to the high hat track and enter 
+ the 
+ pattern press the R button to exit edit 
+ mode Let's Play to stop the 
+ sequencer now we will look at another 
+ way to edit step and basic step 
+ configuration press the step button to 
+ enter step 
+ mode hold the step button and press 
+ button one to select the first 
+ step in the step settings navigate to 
+ the left to reach the step condition and 
+ use the up button to set the condition 
+ to always now go to the right to the 
+ velocity setting and use the down button 
+ to lower the value to copy and paste 
+ this step hold the copy fix button at 
+ the top right and then press the step 
+ button to select step copy mode next 
+ press the step that you want to copy and 
+ finally the steps where you want to 
+ [Music] 
+ paste back in track mode we will now 
+ program the base on track four by 
+ default on the pgb1 the steps for the 
+ Basse track will always play the root 
+ note of the core 
+ [Music] 
+ progression enter edit mode again and 
+ play place a few steps press play and 
+ you will hear the bass follow the C 
+ [Music] 
+ progression now for the lead 
+ [Music] 
+ track steps will play an ARP Jor over 
+ the chord 
+ progression so just enter a few steps to 
+ start a 
+ [Music] 
+ [Applause] 
+ Melody to add more variation in control 
+ to the pattern we will use a different 
+ step condition in Step setting go back 
+ to the left to the condition page and 
+ press up to select field mode 
+ and then copy the step to the remaining 
+ empty steps of the 
+ pattern press play to start the 
+ pattern now hold the copy FX button and 
+ press button one to enable field mode 
+ all the steps are now playing the app 
+ P to complete the track use the same 
+ procedure as before 
+ to add chords on step one and 
+ [Music] 
+ nine and then why not a clap simple 
+ [Music] 
+ going back to step settings use one of 
+ the random step conditions for step 15 
+ this is a simple way to make a pattern 
+ more interesting very 
+ [Music] 
+ [Applause] 
+ quickly and then that's it for basic 
+ sequencing on the pgb1 see you next time
+
+PGB-1: track settings 
+
+hi I'm Fabien from wi nois makers and today we will have a look at track settings on the pgb1 track settings is where you will find most of the sound design and mixing controls as well as track specific features like the arpegiator in this video we will have a look at the base track but all tracks follow the same structure as you can see on the screen we are in track settings and there are several Pages available the selected page is marked by a bigger Dot the first page for the Bas trck is the syn engine there are dozen engines available on this [Music] prototype we select the source swarm [Music] engine if we press the right button we go to the next setting which is on the second page this page contains four parameter for the syn engine [Music] [Music] now to the third page we have four parameters for the LFO rate amplitude shape and Target if we select P1 as the LFO Target we can hear the automatic variation of the first synth engine parameter which is dtune here we can increase or lower the speed of the LFO now we will put the LFO on the highpass filter by selecting P2 in the LFO Target setting [Music] the LFO shape setting is a little bit special first there are several shapes for the modulation of the LFO and there are two additional settings indicated by the small S and L letters l means Loop when activated the LFO will continuously run in a loop [Music] s means synchronize when activated the LFO resets every time a note is [Music] played if we enable synchronization and disable looping the LFO will just run once per not played effectively turning it into an [Music] envelope now going to page four we have the track [Music] volume page five is Stereo [Music] Penning page six is for Global mixing effects there are five options available here first you can choose to not run any [Music] effect then you have another Drive which is too low at the moment so let's turn it up a little bit [Music] then we have [Music] Reverb filter and a Beat [Music] Crusher next page is the Octave of sets which means we can shift the entire Track by one or several octaves here since this is a base track the default is to go down by two [Music] octaves next we have Shuffle or swing for the track which will change the timing of even steps let me show you in a little example for [Music] [Music] next we have the arpegiator mode let's switch to the lead track to hear the different options [Music] [Applause] [Music] then we have the arpegiator note settings at this time only the chord notes are available and finally track mode from which we can turn the track into an external medd controller and that's it for track settings on the pgb1 see you next time
+
+PGB-1 Firmware Update Procedure
+
+So hello uh this is Fabien from Wee Noise Makers. Today we're going to have a look at a firmware update for the PGB1 the firmware update procedure. Um if you haven't seen it already we have a blog post uh talking about this release. In particular, we want to draw your attention to uh a little issue that we have with the bootloader uh which is not um a big issue per se because uh uh if you follow the instruction correctly and uh basically if the update is not interrupted uh everything will be fine and if there is an issue uh you can still recover you um um just just send us a support request and we'll help you recover the device. Uh but just to make sure uh what's important is that the update is not interrupted. So um first uh use a good quality USB cable for the update. Uh make sure that your computer is not going to restart. So uh make sure there's no uh update going on. If you're on a laptop, make sure you have enough battery or maybe plug it uh to the power supply to make sure everything will be okay. Um but other than that, uh everything should be fine. Uh and so let's uh let's start with the procedure. So first we're going to turn on the device uh and have a look and see what what is the current version that we have. So I'm going to press menu. I'm going to press right until I reach the uh sorry the system info menu. Press A to enter. And so here we see that we have version 1.0.1 uh and on the on the website. So uh be sure to check uh from time to time what versions available. You can also um join the discord server. Uh we will announce u any updates over there. Uh but right now we have version 1.1.0 available which means that we uh we can uh update. Okay. So I'm going to go press B to uh go back and press left once to go over the update mode. Press A to enter. And then I have to confirm because uh this is going to turn off the device and reboot in uh in update mode. Uh your project file will be saved and um and the device will will restart. So I'm going to go right and press A. Uh we are not now in uh update mode. Uh and so um two things are going to happen. First you see on the on the LEDs there's the the two letters U and P to uh show that the device is indeed in update mode. And if you look at your computer there's a new uh USB drive that's um visible over here which is called uh RPI-RP 2. Uh, and that's that's the that's the kind of a fake uh USB drive that's simulated by the PGB1 where you can drop your uh firmware. Um, before we do the update, something I want to mention as well, uh, the update will not erase or modify your user data. So if you have projects uh samples uh on the device, they will still be there and still be available and and doesn't change uh anything. All right. So to do the update, we go to the computer. Uh as you can see here, I already have the latest firmware uh uh downloaded here. So it's it's going to be an UF2 file. All right. And the naming should be something like Win noise maker PGB1 firmware the version. So here we have 1.1.0. Uh it's a release version and we have the date uh of the build. All right. So to do the update uh it's extremely simple. I just have to drag and drop this file in the USB drive- RP2. And then that's it. I'm just going to wait. So we wait until the PGB run resets. Uh that's very important. Again, we don't want to interrupt the process. So just wait. Maybe it's going to take more time that than than in my case here in the video. Uh but what's important is to not interrupt and just wait for the PGB1 to uh restart. Okay. Now we can go back to the menu and have a look at the version. And now we see that we have version 1.1.0. Uh and so the update was uh successful. And uh and that's it for uh this quick video on the update procedure for the PGB1. Um if you're watching this just after the 1.1.0 release, uh I will also publish a video showing the various uh changes and the new features on the on this on this update. All right, thank you for watching. See you soon. Bye.
+
+PGB-1 firmware update 1.1.0
+
+Hi, I'm Fabien from Wee Noise Makers and 
+ today I want to show you uh some of the 
+ little improvements and features of the 
+ um 1.1.0 
+ firmware release of the PGB1 which is 
+ the first uh firmware update since the 
+ release um of our Pocket Groove Box. Um, 
+ and I also want to cover some of the 
+ features that are maybe a little little 
+ bit more advanced or some tips and 
+ tricks um that are not um very well 
+ documented uh right now. Uh, okay. So, 
+ we start with the audio inputs um 
+ uh so there are three uh audio inputs on 
+ the device uh which we can control from 
+ uh a little menu. So we we press menu, 
+ we go right to the inputs and uh here we 
+ so we have the first page of settings. 
+ Uh so first we can turn on or off each 
+ of the three different inputs. So we 
+ have the stereo lining which is this 
+ connector over here uh next to the 
+ headphone speaker. We have an internal 
+ microphone which is just here and we can 
+ have a um headset microphone but I don't 
+ have a headset right now so it's not 
+ going to do anything. And last, we can 
+ control the volume, the volume or the 
+ gain uh for uh all three inputs 
+ combined. So, um if you want to use the 
+ the internal microphone, you you might 
+ want to raise the volume here. Uh 
+ usually for line input, you want to keep 
+ it as low as possible and increase the 
+ volume on the device that you are um 
+ using um because you're going to get 
+ more headroom, less noise uh this way. 
+ So for this demo here, I'm going to 
+ bring in um a pocket operator. 
+ All right. So the line input is on. I 
+ have the volume set to a low value. And 
+ I going to play the pocket operator 
+ which is just connected through a stereo 
+ mini jack. 
+ Um so yeah, you can see we can hear the 
+ pocket operator through the PGB1. And if 
+ we go to the next page of settings, uh 
+ it's going to be about um um effects on 
+ the uh uh audio inputs. So right now 
+ it's bypassed, so we don't have any 
+ effects. We have the um overdrive, 
+ the beat crusher, 
+ and the reverb, 
+ which is pretty nice. 
+ Let's switch to our next topic which is 
+ uh sample recording. Um so to record a 
+ new sample uh there's a bit of a 
+ shortcut. You press uh the copy effects 
+ button, you hold it and then you press 
+ edit and you're going to enter uh sample 
+ mode. So here you can either create a 
+ new sample or edit an existing sample. 
+ uh in which case you are going to um 
+ change the start point, end point and 
+ the name of the sample. So it's not very 
+ interesting for this demo. So let's 
+ let's make a new sample. So I press A. 
+ Then I can select which one of the 
+ inputs I want to use. Uh so it's one of 
+ the three. Uh we're going to use light 
+ line in here. We're going to record the 
+ pocket operator. Uh and with up and down 
+ I can control the volume or the gain. 
+ All right. Uh if I press A again, it's 
+ going to start recording. We have a two 
+ seconds uh rolling buffer. Uh so once we 
+ uh record more than two second, it's 
+ going to erase the old stuff with the 
+ new one coming in. So now I can press a 
+ button on the pocket operator. And I 
+ have my sample here. I can see that it's 
+ not very loud. I can probably raise the 
+ gain a little bit. So I can press B to 
+ go back. 
+ can still increase a little bit. 
+ Okay, 
+ once I'm happy, I press A again to stop 
+ the recording. And now with the left and 
+ right button, I can move the start 
+ point. With the up and down, I can move 
+ the end point. 
+ Uh you can also see as well we have 
+ different lights on the keyboard here. 
+ It's because I can preview my sample 
+ pressing those keys 
+ at different pitches. 
+ If I press one, I can go down one 
+ octave, 
+ which can be useful to um set the start 
+ point more precisely. 
+ [Music] 
+ If I press four, I go back to the 
+ central octave. If I press eight, I can 
+ go higher. 
+ Okay, so sample is pretty good now. But 
+ uh I'm going to go back and uh actually 
+ I got two sample in one. Um this is for 
+ a little trick I want to show you later 
+ on. So let's go back and I'm going to 
+ record um 
+ um sorry 
+ let me Okay, let me try again. 
+ Okay. So now we have 
+ we have two sounds. 
+ Okay. 
+ Um so let's press A to continue. We can 
+ set a name for the sample. I'm a bit 
+ lazy. Press A to to select the sample 
+ location. So let's put it here. Press A 
+ again. We have to confirm. Press uh 
+ right to select. Yes. Press A to 
+ confirm. It's going to take a couple of 
+ seconds to save the sample. And that's 
+ it. Uh, we know we can go to one of the 
+ sample tracks. We go up and we see our 
+ sample 
+ over here. 
+ All right. So, that's basically how to 
+ create a new sample on the PGB1. 
+ Okay. So, that's how you um create a new 
+ sample on PGB1. Um, now I'm going to 
+ show you how to uh use uh um as much as 
+ possible the the two sampler tracks. So 
+ we have the seven and the eight that are 
+ sample track. People are asking um if we 
+ can have more sample track. It's not 
+ really possible 
+ um because of the hardware limitations 
+ of the device. But um there are some 
+ tips and tricks that uh really can uh 
+ can greatly improve what you can do with 
+ the with the sample track. So let's uh 
+ let's have a look. First I'm going to 
+ create a new project. 
+ All right. And so I'm going to select 
+ the first maybe raise the volume a 
+ little bit. The first sample track. Um 
+ and so right now we have the cowbell 
+ selected. So that's what's going to play 
+ by default. If I press edit, put in a 
+ pattern, it's just going to play the 
+ cobbell. All right. 
+ But if I go to the step mode, 
+ select step one, and I go right, I can 
+ go to the parameter locks. Um, and so 
+ for the sample track, one of the 
+ parameter is actually which sample we 
+ want to play. And so maybe what I can do 
+ is uh I think there's a kick somewhere. 
+ Let's put a kick here. 
+ All right. Now I go to the third one. 
+ I'm going to enable it and I'm going to 
+ take 
+ um 
+ say a high hat 
+ and the fifth one. 
+ You see where I'm going here? 
+ Uh some some snare. 
+ Okay. Now I going to copy the steps. 
+ Copy this one. Put it here. Copy this 
+ one. Put it here and here. Copy the 
+ snare. 
+ here. 
+ And so 
+ this is just to show you that actually 
+ even though 
+ we just have two sample tracks, you can 
+ actually play different samples on each 
+ uh individual step. And so if you 
+ combine this with the two um sample 
+ tracks, uh you can actually do a lot uh 
+ with just the with just the samples. 
+ Let's clear. Make a new project. And I'm 
+ going to show you another trick 
+ with the sample we recorded before. So 
+ I'm going to select it. 
+ So if you remember in this sample, we 
+ have actually two sounds. And just 
+ actually click on this one was maybe too 
+ loud. Um anyway, uh we're going to use 
+ the same trick more or less. We're going 
+ to um set a different. So, we're going 
+ to put two steps. Set a different 
+ starting point. So, this one is going to 
+ start um 
+ at the very beginning. We're going to 
+ put a very short release. 
+ So, we just hear the first sound. The 
+ next one, we put a short release as 
+ well, but we change the starting point. 
+ So, we start 
+ at the beginning of the at the second. 
+ And so this way again I can copy 
+ with just one sample slot. We actually 
+ have two samples um which is one way to 
+ uh better optimize and use more memory 
+ um in the device. So um there you go 
+ little trick for for you. 
+ Okay. So now let's look at some other 
+ improvements that we have in this in 
+ this release. um I think one of them. So 
+ let's go to the track. Uh let's load um 
+ a demo track, a demo project. So this 
+ one for instance. 
+ Okay. So when you are editing um track 
+ settings, uh one way to change the value 
+ is the up and down arrow here. So I can 
+ increase the drive for the kick. But 
+ there's also the touch strip. And so the 
+ touch strip is much more uh usable now. 
+ with uh with this release. Um so it's 
+ smoother and and and more uh more 
+ precise as well. Um and one little trick 
+ I want to show you. So I'm going to solo 
+ the kick. If you press and hold the copy 
+ uh FX button, you have access to one 
+ parameter that you can change live um 
+ whenever uh you know whatever you select 
+ in the track settings. So I can I can 
+ select the sample track. If I can press 
+ FX here, you see the lead and the 
+ parameter is tuned. But I can go 
+ to the kick track and I can select 
+ uh drive. And so right now I can just 
+ change the drive with the touch. 
+ It's a quick way to have one parameter 
+ that you want maybe to change live uh 
+ during your during your performance. 
+ Okay. Another um quick tip I want to 
+ share is the chord progression um kind 
+ of indicator. Um so when there's a pro 
+ chord progression going on, you see 
+ these little dots and the and the little 
+ up arrow here on the screen. This is 
+ showing where where you are in the chord 
+ progression. Um so if I hit play, 
+ see the third chord, fourth chord. Let 
+ me turn down the volume a little bit. 
+ Uh and this is useful to time your 
+ change of of uh pattern and and song 
+ parts. 
+ So here 
+ um let me select so this one for 
+ instance 
+ I can see so the second chord third 
+ chord and then it's the the first one is 
+ coming so I can change to the next part 
+ before we go back to the first chord. So 
+ that's that's a little trick. And right 
+ now we also have this uh display in the 
+ FX/Copy menu. So I can time my retrigs 
+ and release just in time. Okay. So next 
+ on the topic of chord progressions, um 
+ some people ask how to how to set up a 
+ chord progression. So um let's let's 
+ start a new project. 
+ All right. And let's put just a just a 
+ bass pattern 
+ just so we have something going on. So 
+ the chord progression uh it's happening 
+ in song mode. So we press song. Um maybe 
+ we have the first song part. 
+ Um so which cord progression is going to 
+ play is this is is is uh set here. You 
+ see chords and number 13. So to change 
+ that I press B to go down. 
+ then right and then with up and down I 
+ can select between 13 14 15 and 16 and 
+ this corresponds to the four buttons 
+ over here. These are the C progression 
+ buttons. So let's go back to 13. Um so 
+ this is saying when I play this uh song 
+ part I'm going to play the 
+ chord progression number 13. So how do I 
+ edit this one? press the 13 over here. 
+ And now I'm in the chord settings um 
+ menu. So here I have just a chord 
+ progression with one chord. So I can 
+ change the root note. I can change the 
+ the quality of the of the the chord. Uh 
+ and I can change the length of the 
+ chord. Um actually let's put 
+ some chords. That's going to be better 
+ than just the just the bass. 
+ Okay. 
+ [Music] 
+ So go back to song mode 13. 
+ See, I can change the quality of the 
+ chord. I can change the root note. 
+ If I want to add another chord to the 
+ progression, I go right. Okay. Until I'm 
+ the last setting, go right again. And 
+ then I can press A to add a new chord. 
+ And now there are two chords in the 
+ progression. So I can put whatever chord 
+ I want. 
+ [Music] 
+ And maybe I want this one to last a 
+ little bit longer. So, I'm going to go 
+ uh 
+ [Music] 
+ like this. 
+ All right. And so then you can just add 
+ another chord and again or you can 
+ remove. So you go to this page and you 
+ press B to remove a chord from the 
+ progression. Uh, and the last page is 
+ actually to generate random chord 
+ progressions. Uh, so you just press A 
+ and it's going to randomly create a 
+ chord progression. 
+ You can press A again to try something 
+ something else. 
+ With the up and down button, you have 
+ the option to select different scale. So 
+ we have major, minor, and model. Uh, so 
+ again, play a bit with this. See see 
+ what you like. 
+ [Music] 
+ Okay, let's start with that. And so now, 
+ how do we know which which note from the 
+ chord is going to be played? So, uh this 
+ is this is in the step mode. So, if I 
+ select um the chords engine, this one is 
+ going to play a chord by default always. 
+ And that's because when we go to a step, 
+ if we go to the uh note uh setting over 
+ here, it's it's written it says chord. 
+ If I press A, I can change I can just 
+ play one note in the chord. Uh I can 
+ play the arpeggiator or just a fixed 
+ note that I said that has nothing to do 
+ with the chord progression. But for the 
+ chord track, we want to play a chord. Um 
+ this is the only um polyonic track 
+ inside the device. But if you control an 
+ external um MIDI instrument, you can 
+ also send chords through uh MIDI. Now if 
+ I go to the lead uh by default it's 
+ going to play. So you can see over here 
+ it's going to play the arpeggiator. 
+ But I can change I can mix. Uh for 
+ instance I can have here I just I always 
+ want to play the root note. So I'm going 
+ to press A till I reach the uh note in 
+ chord. And here you see number one plus 
+ zero octave. So it's going to play the 
+ first note of the chord uh at the same 
+ octave as the chord. But I can So now 
+ it's going to be always the same. I can 
+ also play the second note of the chord, 
+ the third, fourth, or I can play the the 
+ root note at one octave above. I can go 
+ down to play one octave below, etc. So I 
+ can mix that. Uh for instance, I can say 
+ the first step is always going to play 
+ the root notes, but then I can go to the 
+ arpeggiator for the 
+ uh the three next notes and then the 
+ fifth note 
+ is going to play 
+ uh the third note of the of the chord uh 
+ etc etc. So let's let's put things like 
+ this. 
+ Okay, let's play 
+ um let's play the root note one octave 
+ above. Why not? Let's play the 
+ the third or the fourth. And so 
+ here we can mix um different things. And 
+ for instance, this is interesting. And 
+ if we go to the track mode, we go right 
+ to select the uh arpeggiator mode. Um 
+ and we can put random. 
+ So uh yeah, here random. So now 
+ the arpeggiator will play random notes 
+ from the chord except for these steps 
+ which we know will always land on the 
+ note that we selected. 
+ So, it's an interesting mix because uh 
+ you can decide on on given steps, you 
+ always want to play a precise note, but 
+ for the others, you can just have random 
+ notes. And of course, if you go to part 
+ two, you can select another C 
+ progression. 
+ So, let's let's play the 14th. Let's 
+ generate something else. And so now if I 
+ play part one, it's going to be this 
+ chord progression. 
+ If I switch to the part two, 
+ it's another chord progression. 
+ So that's one way to have uh you know a 
+ very interesting track. uh you can say 
+ the first progression can be just 
+ staying fixed on one single chord and 
+ then as you move along the the track you 
+ can bring in more chords uh have a 
+ progression and then change again. Uh 
+ that's that's pretty uh pretty powerful. 
+ Okay, so last but not least um we're 
+ going to finish with some of the new uh 
+ synth engine available in the in the 
+ PGB1. So I'm just using a little pattern 
+ on the bass track here. So the first one 
+ is the PDR square full sign. Um this is 
+ a bit cryptic. PDR stands for a phase 
+ distortion 
+ uh resonance. Um and uh square full sign 
+ means there is half of the waveform 
+ which is a square wave and the other 
+ half is a full sine wave. Um so we're 
+ going to play this 
+ We can increase the 
+ shape distortion, the phase distortion. 
+ And this is sound, this sounds like um 
+ that hence the name uh phase distortion 
+ resonance. It sounds like a um 
+ um resonant filter um which is pretty 
+ nice. 
+ You can change the distortion 
+ and the second parameter is uh distort 
+ release. So you can make it short. 
+ Okay. Uh let's switch to next one. 
+ Triangle phaser. So this is um sorry 
+ this is a bit like the phaser that we 
+ had uh I think the chip phaser in the in 
+ the first uh firmware. 
+ Basically we have two triangle 
+ waveforms. Uh we can change the shape of 
+ the triangle and we can change offset 
+ the phase. So here they are 
+ synchronized. 
+ We can increase the phase a little bit. 
+ pretty good bass sound. Of course, we 
+ have 
+ the LFO here which we can use 
+ to change automatically some parameters. 
+ All right, the next one is pretty 
+ similar. It's the sign phaser. So, the 
+ same the same idea. It's just sine wave 
+ instead of a triangle. So, we have a 
+ shape. 
+ Let's turn off the LFO. 
+ We have a shape. We have 
+ an offset between the two. 
+ [Music] 
+ Okay. 
+ Next one. Sine plug. So, this is kind of 
+ a plug sound um with a sine wave. Um 
+ what's happening here is that we have a 
+ filter that's going to close 
+ um um 
+ depending on the on the on the release 
+ parameter. So 
+ the shorter the release, the faster it's 
+ going to close. 
+ So it's kind of a pluck sound. We can 
+ change the shape 
+ of the waveform and we can change the 
+ cutff frequency of the filter. 
+ We also have the resonance of the 
+ filter. 
+ All right. And the next one is the same 
+ with the triangle. 
+ [Music] 
+ Okay, 
+ next one. Chip pluck. Same idea with a 
+ square wave. 
+ [Music] 
+ Okay. 
+ And uh that's it for the new uh synth 
+ engine in the uh release 1.1.0 
+ of the PGB1. All right, that wraps up 
+ our uh overview of the new uh features 
+ and improvements in the PGB1 uh 
+ firmware, the new 1.1.0 firmware. Uh if 
+ you have any questions, ID suggestion, 
+ uh please join the Discord server and uh 
+ um have a chat with us. We'd be happy to 
+ hear uh your ideas. And uh in the 
+ meantime, have fun and uh see you next 
+ time. Thank you for watching. Bye.
+
+Convert audio files to PGB-1 samples
+
+Hi everyone. Quick video to show you how 
+ to convert your um audio files on your 
+ computer into samples for the PGB1. 
+ And to do that right now, we have a 
+ small uh widget on the website um and I 
+ will show you how to use it. So we go 
+ over to the computer 
+ and uh we go to the weismakers.com PGB1 
+ page. There will be a link in the 
+ description. You go to the very bottom 
+ of page here. You have this little 
+ widget. Uh you have instructions on how 
+ to use it, but I will show you. So, it's 
+ very simple. You click on choose file, 
+ which is going to open a file browser on 
+ your computer. You select just random 
+ sample. 
+ You're going to see the waveform on your 
+ screen. You can press play. 
+ You just preview the sound. 
+ You have here a field to change the name 
+ of the sample. 
+ I'm just going to use this. And here you 
+ have to select which sample slot you 
+ want to use between one and uh 64. And 
+ this is going to erase the sample uh 
+ once you transfer to the PGB1. It's 
+ going to erase the sample that's uh in 
+ this uh in this sl. So I'm just going to 
+ use sample one. I'm going to click 
+ export and it's going to download the 
+ file that I can uh drag and drop to the 
+ PGB1 when it's in uh firmware update 
+ mode. So, just like when you update uh 
+ your firmware, use a good quality USB 
+ cable, plug the PGB1 to your computer, 
+ press menu, go to update mode, confirm, 
+ and now um PGB1 will show up as a um USB 
+ drive on your computer uh with the name 
+ RPI-P2. 
+ Uh and so I'm going to click export. 
+ It's just going to save the file. 
+ Now I can just uh drag and drop the PGB1 
+ sample UF2 file. It's going to reboot 
+ the PGB1. And now if I go to sample, 
+ I have this new sample on slot number 
+ one. 
+ All right, that's it.
+
+PGB-1 firmware update version 1.2.0
+
+Hi everyone. Uh welcome to this quick 
+ presentation of the new uh PGB1 firmware 
+ version 1.2.0. 
+ Uh we have a few quality of life 
+ improvements in this uh in this new 
+ version including uh new icons for the 
+ main menu. 
+ Uh we also have now a um small number 
+ showing the selected synth engine so you 
+ know how many engines are available and 
+ and when you are where you are in the 
+ list. 
+ Um also a pretty nice addition that was 
+ uh requested a lot is this uh chromatic 
+ keyboard that you can enable by holding 
+ the edit button. So if I press and hold 
+ the edit button, I can play 
+ and select the bass, 
+ I can play the selected track. [music] 
+ If I press one, I can go down an octave. 
+ If I press eight, I can go up. 
+ And if I press four, I go back to 
+ the center of the keyboard. 
+ Now to use this keyboard to uh enter 
+ notes on your pattern, you have to 
+ enable edit mode by pressing short press 
+ on the edit button and the keyboard will 
+ change the note of the selected step. So 
+ if I press and enable step one, I can 
+ enter a note. 
+ can press enable five, enter another 
+ note, 
+ etc. 
+ um let's put 
+ just whatever. [music] 
+ That's pretty useful. And uh you can use 
+ this keyboard to play any of the tracks 
+ including the sampler. 
+ Another big feature in this release is 
+ the um ability to draw custom uh single 
+ cycle waveform. So if you press menu, 
+ you go right, you have this new custom 
+ waveform uh entry. You press A to enter. 
+ You can either uh draw your waveform uh 
+ by yourself or you can load from uh a 
+ set of u built-in waveforms as you can 
+ see here. Uh you just select your 
+ waveform, press A and it's going to be 
+ loaded in the custom waveform 
+ uh memory. If I go back, I can edit 
+ myself. in which [snorts] case I have 
+ this little cursor here that can move 
+ with the up, down, left, right arrows 
+ of the PGB1 and I can draw the waveform 
+ like this. 
+ Okay, another interesting option is to 
+ use the touch uh slide to control the 
+ value of the waveform. And I can press 
+ and hold left to uh draw my waveform 
+ like so. Okay. So now this waveform is 
+ available in the project. It's saved as 
+ part of the project. So you can have a 
+ different uh custom waveform for each uh 
+ of your uh PGB1 project. And uh you can 
+ use this waveform in various different 
+ uh sound engines. Uh we'll see the list 
+ later, but I'm going to just pick one 
+ for the bass here because we have a 
+ baseline. 
+ So for instance, 
+ custom waveform pluck. 
+ >> [music] 
+ >> So this engine is now using the waveform 
+ that we've just um drawn on the on the 
+ screen 
+ and I can edit this waveform live. 
+ [music] So for instance I can load this 
+ one and you can see the sound is 
+ changing right away. 
+ I can also draw live. I can use the 
+ cursor to just [music] draw something 
+ else 
+ and it's 
+ instantly having an effect on the sound. 
+ [music] 
+ [music] 
+ So now in terms of new sound engines in 
+ this uh 1.2.0 zero version. Uh we have a 
+ few new kick 
+ engines. 
+ First one is sign click kick uh which is 
+ the same as the sign kick with an 
+ additional um noise transient 
+ which we call the click here. Oh my bad. 
+ Okay, 
+ same as the other engines, you can uh 
+ change the punch punch decay. 
+ We also have a custom waveform kick. So, 
+ this one is like uh like the other kick 
+ in the in the previous versions, but 
+ using the custom waveform that we've 
+ just uh drawn. 
+ And the last one is the same with the 
+ additional uh kick transient. 
+ All right. For the snare channel, 
+ we have a new clap. So the the previous 
+ clap is renamed uh clap bond pass and 
+ the new one is high pass. So it's really 
+ just what it is. It's a it's a it's a 
+ new version of the clap using a highp 
+ pass filter instead of a band pass 
+ filter. 
+ So the clap is just a short burst of uh 
+ noise 
+ and uh you can change the sync is going 
+ to be the amount of time between each 
+ trigger of the noise. 
+ So the higher the value, the longer the 
+ time between the the the short bursts. 
+ So here you can you can hear them. 
+ If I lower the value, it's going to get 
+ faster. 
+ Okay. Now I can bring back some noise 
+ decay. 
+ Here we have uh 
+ filter cutff control 
+ and some overdrive. 
+ All right. Next up for the base and 
+ [music] the lead uh which use the same 
+ engines, we have many different um new 
+ engines that are based on the custom 
+ waveform. So we have um a glide, 
+ phaser, 
+ pluck, 
+ echo, 
+ and the phase distortion or resonance 
+ uh version for the the custom waveform. 
+ And last but not least, we have new 
+ engines for the chord uh track. 
+ So the first one called mixed waveforms. 
+ Uh it's like the it's like the the 
+ original except [music] that each 
+ oscillator, we have four oscillators in 
+ this uh in this track. Each oscillator 
+ will use a different um wave four 
+ and so the sound is is much more [music] 
+ interesting than uh than the previous 
+ one. 
+ And the last one is custom waveform 
+ which is um the same for voice polyonic 
+ engine that we know just using the 
+ custom uh waveform that we've just uh 
+ drawn. uh just before. 
+ So let's make a a quick example. 
+ Generate 
+ C progression. 
+ I'm going to mute the bass. 
+ And again, if [music] I want to edit, 
+ you know, the waveform 
+ live, I can [music] do it. 
+ All right, that's it for this update. 
+ Um, you can go to the PGB1 web page uh 
+ to download and install this new update. 
+ Uh, let us know in the comment what you 
+ think about these new features. Uh and 
+ also please join the discord server to 
+ uh have a chat with us and and share 
+ your experience with uh other PGB1 
+ users. All right, thank you for watching 
+ and see you next time.
+

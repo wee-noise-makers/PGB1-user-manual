@@ -1,0 +1,105 @@
+site_name: PGB-1 User Manual
+site_description: Complete user manual for the Wee Noise Makers PGB-1 Pocket Groove Box
+site_author: Wee Noise Makers
+site_url: https://weenoisemakers.com/pgb-1
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  icon:
+    logo: material/music-box
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/EAmAgsmV5V
+      name: Join the Discord
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/weenoisemakers
+      name: Follow on Instagram
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Overview: getting-started/index.md
+    - Hardware Layout: getting-started/hardware.md
+    - Power & Charging: getting-started/power.md
+    - Navigation Basics: getting-started/navigation.md
+    - Your First Project: getting-started/first-project.md
+  - Main Modes:
+    - Overview: modes/index.md
+    - Track Mode: modes/track-mode.md
+    - Step Mode: modes/step-mode.md
+    - Pattern Mode: modes/pattern-mode.md
+    - Song Mode: modes/song-mode.md
+    - Sample Mode: modes/sample-mode.md
+  - Track Settings:
+    - Overview: track-settings/index.md
+    - Synth Engines: track-settings/synth-engines.md
+    - LFO: track-settings/lfo.md
+    - Mixing: track-settings/mixing.md
+    - Arpeggiator: track-settings/arpeggiator.md
+  - Step Settings:
+    - Overview: step-settings/index.md
+    - Trigger Conditions: step-settings/conditions.md
+    - Notes & Chords: step-settings/notes.md
+    - Parameter Locks: step-settings/parameter-locks.md
+  - Pattern Settings: patterns.md
+  - Song & Chords:
+    - Song Parts: song/parts.md
+    - Chord Progressions: song/chords.md
+  - Sampling:
+    - Recording Samples: sampling/recording.md
+    - Importing Samples: sampling/importing.md
+    - Sample Tracks: sampling/sample-tracks.md
+  - Live Performance:
+    - Live FX: performance/live-fx.md
+    - Copy & Paste: performance/copy-paste.md
+    - Shortcuts: performance/shortcuts.md
+  - Custom Waveforms: custom-waveforms.md
+  - Audio & MIDI:
+    - Audio Output: audio-midi/output.md
+    - Audio Input: audio-midi/input.md
+    - MIDI: audio-midi/midi.md
+  - System:
+    - Main Menu: system/menu.md
+    - Firmware Updates: system/firmware.md
+    - Troubleshooting: system/troubleshooting.md
+  - Reference:
+    - Synth Engine List: reference/engines.md
+    - Warranty: reference/warranty.md
