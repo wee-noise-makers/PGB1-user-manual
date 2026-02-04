@@ -4,7 +4,7 @@ The PGB-1 allows you to copy and paste four types of elements: Song Parts, Track
 
 ## Starting Copy/Paste
 
-1. **Hold** the **Cpy/FX** button (keep it held throughout)
+1. **Hold** the ++cpy-fx++ button (keep it held throughout)
 2. Press the mode button for what you want to copy:
    - ++song++ - Copy song parts
    - ++track++ - Copy tracks
@@ -12,7 +12,7 @@ The PGB-1 allows you to copy and paste four types of elements: Song Parts, Track
    - ++step++ - Copy steps
 3. Enter the source ("From") address
 4. Enter the destination ("To") address
-5. Release **Cpy/FX**
+5. Release ++cpy-fx++
 
 ## Understanding Addresses
 
@@ -32,7 +32,7 @@ Different elements have different address formats:
 Copies all song part settings to another part.
 
 **Procedure:**
-1. Hold **Cpy/FX** + press ++song++
+1. Hold ++cpy-fx++ + press ++song++
 2. Press source part (++1++ to ++12++)
 3. Press destination part (++1++ to ++12++)
 
@@ -44,7 +44,7 @@ Copies all patterns from one track to another.
     Copying tracks copies pattern data only, not track settings (engine, effects, etc.).
 
 **Procedure:**
-1. Hold **Cpy/FX** + press ++track++
+1. Hold ++cpy-fx++ + press ++track++
 2. Press source track (++1++ to ++16++)
 3. Press destination track (++1++ to ++16++)
 
@@ -56,7 +56,7 @@ Copies all steps and pattern settings from one pattern to another.
     Copying patterns includes pattern settings (length, link).
 
 **Procedure:**
-1. Hold **Cpy/FX** + press ++pattern++
+1. Hold ++cpy-fx++ + press ++pattern++
 2. Screen shows "From" with Track and Pattern to enter
 3. Press ++track++ if needed to change track
 4. Press source track number
@@ -69,7 +69,7 @@ Copies all steps and pattern settings from one pattern to another.
 Copies a single step's settings to another step.
 
 **Procedure:**
-1. Hold **Cpy/FX** + press ++step++
+1. Hold ++cpy-fx++ + press ++step++
 2. Enter source: Track, Pattern, Step numbers
 3. Enter destination: Track, Pattern, Step numbers
 
@@ -94,36 +94,36 @@ After the first paste, the "To" address shows blinking question marks again. You
 
 ### Copy Step 2 to Steps 4, 6, and 8 (Same Pattern)
 
-1. Hold **Cpy/FX** + press ++step++
+1. Hold ++cpy-fx++ + press ++step++
 2. Press ++2++ (source step)
 3. Press ++4++ (first destination)
 4. Press ++6++ (second destination)
 5. Press ++8++ (third destination)
-6. Release **Cpy/FX**
+6. Release ++cpy-fx++
 
 ### Copy Step from Track 7, Pattern 5, Step 2 to Track 1, Pattern 3, Step 9
 
-1. Hold **Cpy/FX** + press ++step++
+1. Hold ++cpy-fx++ + press ++step++
 2. Press ++track++, then ++7++ (source track)
 3. Press ++5++ (source pattern, or press ++pattern++ then ++5++)
 4. Press ++2++ (source step)
 5. Press ++track++, then ++1++ (dest track)
 6. Press ++3++ (dest pattern)
 7. Press ++9++ (dest step)
-8. Release **Cpy/FX**
+8. Release ++cpy-fx++
 
 Or using the shorthand:
 
-**Cpy/FX** → ++step++, ++track++, ++5++, ++7++, ++2++, ++track++, ++7++, ++3++, ++9++
+++cpy-fx++ → ++step++, ++track++, ++5++, ++7++, ++2++, ++track++, ++7++, ++3++, ++9++
 
 ### Copy Pattern 1 to Patterns 2, 3, 4 (Same Track)
 
-1. Hold **Cpy/FX** + press ++pattern++
+1. Hold ++cpy-fx++ + press ++pattern++
 2. Press ++1++ (source pattern)
 3. Press ++2++ (first destination)
 4. Press ++3++ (second destination)
 5. Press ++4++ (third destination)
-6. Release **Cpy/FX**
+6. Release ++cpy-fx++
 
 ## Tips
 

@@ -10,7 +10,7 @@ The PGB-1 interface operates in four main modes, plus a special Sample Mode. Eac
 | Step Mode | ++step++ | Configure individual step parameters |
 | Pattern Mode | ++pattern++ | Configure pattern length and linking |
 | Song Mode | ++song++ | Arrange song parts and chord progressions |
-| Sample Mode | Hold **Cpy/FX** + ++edit++ | Create and edit samples |
+| Sample Mode | Hold ++cpy-fx++ + ++edit++ | Create and edit samples |
 
 ## Switching Modes
 

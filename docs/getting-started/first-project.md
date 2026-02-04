@@ -43,7 +43,7 @@ Let's make the hi-hats more dynamic:
 
 Copy the configured step to create consistent variation:
 
-1. Hold **Cpy/FX**
+1. Hold ++cpy-fx++
 2. Press ++step++ to enter step copy mode
 3. Press ++1++ to select the source step
 4. Press ++2++, ++5++, ++6++, ++9++, ++10++, ++13++, ++14++ to paste to those steps
@@ -73,7 +73,7 @@ Now that you've created your first beat, try:
 |--------|---------|
 | Select track | Hold ++track++ + ++1++-++16++ |
 | Toggle step | ++edit++ then ++1++-++16++ |
-| Copy step | Hold **Cpy/FX** + ++step++ + source + destination |
+| Copy step | Hold ++cpy-fx++ + ++step++ + source + destination |
 | Play/Stop | ++play++ |
 | Adjust volume | Hold ++play++ + ++up++ / ++down++ |
 | Adjust BPM | Hold ++play++ + ++left++ / ++right++ |

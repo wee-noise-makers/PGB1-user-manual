@@ -26,7 +26,7 @@ Quick reference for all PGB-1 keyboard shortcuts.
 | Enter Step Mode | Press ++step++ |
 | Enter Pattern Mode | Press ++pattern++ |
 | Enter Song Mode | Press ++song++ |
-| Enter Sample Mode | Hold **Cpy/FX** + Press ++edit++ |
+| Enter Sample Mode | Hold ++cpy-fx++ + Press ++edit++ |
 
 ## Quick Selection (Without Mode Change)
 
@@ -52,7 +52,7 @@ Quick reference for all PGB-1 keyboard shortcuts.
 
 | Action | Shortcut |
 |--------|----------|
-| Toggle Live FX | Hold **Cpy/FX** + Press ++1++-++16++ |
+| Toggle Live FX | Hold ++cpy-fx++ + Press ++1++-++16++ |
 
 ### Sequencing FX (Left Side)
 
@@ -84,10 +84,10 @@ Quick reference for all PGB-1 keyboard shortcuts.
 
 | Action | Shortcut |
 |--------|----------|
-| Copy Song Part | Hold **Cpy/FX** + ++song++ + source + dest |
-| Copy Track | Hold **Cpy/FX** + ++track++ + source + dest |
-| Copy Pattern | Hold **Cpy/FX** + ++pattern++ + source + dest |
-| Copy Step | Hold **Cpy/FX** + ++step++ + source + dest |
+| Copy Song Part | Hold ++cpy-fx++ + ++song++ + source + dest |
+| Copy Track | Hold ++cpy-fx++ + ++track++ + source + dest |
+| Copy Pattern | Hold ++cpy-fx++ + ++pattern++ + source + dest |
+| Copy Step | Hold ++cpy-fx++ + ++step++ + source + dest |
 
 ## Menu Navigation
 
@@ -110,7 +110,7 @@ Quick reference for all PGB-1 keyboard shortcuts.
 
 | Action | Shortcut |
 |--------|----------|
-| Live Parameter Adjustment | Hold **Cpy/FX** + Use Touch Strip |
+| Live Parameter Adjustment | Hold ++cpy-fx++ + Use Touch Strip |
 
 ## Sample Recording
 

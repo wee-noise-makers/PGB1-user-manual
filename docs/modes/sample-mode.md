@@ -4,7 +4,7 @@ Sample Mode allows you to record and edit samples directly on the PGB-1.
 
 ## Entering Sample Mode
 
-Hold **Cpy/FX** and press ++edit++ to enter Sample Mode.
+Hold ++cpy-fx++ and press ++edit++ to enter Sample Mode.
 
 ## Sample Mode Options
 

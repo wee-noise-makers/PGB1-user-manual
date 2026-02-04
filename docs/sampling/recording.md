@@ -4,7 +4,7 @@ The PGB-1 can record samples directly from its inputs, allowing you to capture s
 
 ## Entering Sample Mode
 
-Hold **Cpy/FX** and press ++edit++ to enter Sample Mode.
+Hold ++cpy-fx++ and press ++edit++ to enter Sample Mode.
 
 Select **New Sample** to begin recording.
 

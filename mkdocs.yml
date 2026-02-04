@@ -31,8 +31,31 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.keys
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.keys:
+      key_map:
+        # PGB-1 numbered buttons
+        "10": "10"
+        "11": "11"
+        "12": "12"
+        "13": "13"
+        "14": "14"
+        "15": "15"
+        "16": "16"
+        # PGB-1 mode buttons
+        "step": "Step"
+        "track": "Track"
+        "song": "Song"
+        "pattern": "Pattern"
+        # PGB-1 control buttons
+        "play": "Play"
+        "edit": "Edit"
+        "menu": "Menu"
+        "cpy-fx": "Cpy/FX"
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
@@ -60,6 +83,8 @@ nav:
     - Hardware Layout: getting-started/hardware.md
     - Power & Charging: getting-started/power.md
     - Navigation Basics: getting-started/navigation.md
+    - Rhythm Basics: getting-started/rhythm-basics.md
+    - Sound Path: getting-started/sound-path.md
     - Your First Project: getting-started/first-project.md
   - Main Modes:
     - Overview: modes/index.md

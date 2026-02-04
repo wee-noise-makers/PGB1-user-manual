@@ -131,7 +131,7 @@ Apply real-time effects to your input signal:
 To record a sample from any input:
 
 1. Configure input settings
-2. Enter Sample Mode (hold **Cpy/FX** + ++edit++)
+2. Enter Sample Mode (hold ++cpy-fx++ + ++edit++)
 3. Select **New Sample**
 4. Choose your input source
 5. Adjust gain

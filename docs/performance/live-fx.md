@@ -4,7 +4,7 @@ The PGB-1 features 16 live effects that can be activated during playback for dyn
 
 ## Accessing Live FX
 
-Hold **Cpy/FX** and press ++1++ to ++16++ to toggle effects.
+Hold ++cpy-fx++ and press ++1++ to ++16++ to toggle effects.
 
 ## Effect Categories
 
@@ -34,7 +34,7 @@ Add or modify steps automatically:
 
 | Button | Effect | Description |
 |--------|--------|-------------|
-| ++9++ | Fill Steps | Triggers steps with "Fill" condition |
+| ++9++ | Fill Steps | Triggers steps with ["Fill" condition](../step-settings/conditions.md) |
 | ++10++ | Auto-fill Low | Random fills, lower probability |
 | ++11++ | Auto-fill High | Random fills, higher probability |
 | ++12++ | Auto-fill Build-up | Increasing fill intensity |
@@ -91,9 +91,9 @@ You can combine effects from different categories:
 ### Basic Performance
 
 1. Start your sequence (++play++)
-2. Hold **Cpy/FX**
+2. Hold ++cpy-fx++
 3. Press effect buttons to toggle on/off
-4. Release **Cpy/FX** when done
+4. Release ++cpy-fx++ when done
 
 ### Building Tension
 
@@ -115,11 +115,11 @@ You can combine effects from different categories:
 
 ## Chord Progression Indicator
 
-While holding **Cpy/FX**, the chord progression indicator appears on screen. Use this to time your effects to land on specific chord changes.
+While holding ++cpy-fx++, the [chord progression](../song/chords.md) indicator appears on screen. Use this to time your effects to land on specific chord changes.
 
 ## Quick Parameter Control
 
-While holding **Cpy/FX**, the touch strip controls the currently selected track parameter. This lets you perform parameter changes during Live FX.
+While holding ++cpy-fx++, the touch strip controls the currently selected track parameter. This lets you perform parameter changes during Live FX.
 
 ## Performance Tips
 
@@ -146,3 +146,10 @@ While holding **Cpy/FX**, the touch strip controls the currently selected track 
 - Learn the button positions by feel
 - Practice effect combinations
 - Develop your own performance style
+
+## See Also
+
+- [Sound Path](../getting-started/sound-path.md) - Where Live FX fit in the audio chain
+- [Trigger Conditions](../step-settings/conditions.md) - Setting up Fill conditions
+- [Chord Progressions](../song/chords.md) - Using the chord indicator
+- [Shortcuts](shortcuts.md) - Quick reference for all controls

@@ -23,7 +23,7 @@ Navigate between pages using ++left++ and ++right++:
 
 ### Page 1: Trigger Condition
 
-Determines when the step plays:
+Determines when the step plays. See [Trigger Conditions](../step-settings/conditions.md) for details:
 
 | Condition | Description |
 |-----------|-------------|
@@ -36,7 +36,7 @@ Determines when the step plays:
 
 ### Page 2: Note
 
-Set what note the step plays:
+Set what note the step plays. See [Notes & Chords](../step-settings/notes.md) for details:
 
 | Option | Description |
 |--------|-------------|
@@ -70,7 +70,7 @@ Create note repeats (retrigs) within the step:
 
 ### Page 7+: Parameter Locks
 
-Set per-step values for synth parameters. This allows each step to have different sound settings.
+Set per-step values for synth parameters. This allows each step to have different sound settings. See [Parameter Locks](../step-settings/parameter-locks.md) for details.
 
 ## Working with Steps
 
@@ -94,5 +94,12 @@ This is powerful for sample tracks where you can select different samples per st
 ## Tips
 
 - Use velocity variations to create groove and dynamics
-- Combine trigger conditions with copy/paste for complex patterns
-- Use parameter locks to play different samples on each step of a sample track
+- Combine trigger conditions with [copy/paste](../performance/copy-paste.md) for complex patterns
+- Use parameter locks to play different samples on each step of a [sample track](../sampling/sample-tracks.md)
+
+## See Also
+
+- [Step Settings Overview](../step-settings/index.md) - Detailed step configuration
+- [Trigger Conditions](../step-settings/conditions.md) - Probability and conditional triggers
+- [Notes & Chords](../step-settings/notes.md) - Note selection and chord integration
+- [Parameter Locks](../step-settings/parameter-locks.md) - Per-step sound variations

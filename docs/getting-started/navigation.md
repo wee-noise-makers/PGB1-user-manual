@@ -93,4 +93,4 @@ The touch strip provides analog control for parameters:
 3. The value changes smoothly as you slide
 
 !!! tip "Live Control"
-    Hold **Cpy/FX** to access a quick parameter that can be controlled with the touch strip during performance.
+    Hold ++cpy-fx++ to access a quick parameter that can be controlled with the touch strip during performance.

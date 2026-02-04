@@ -33,6 +33,6 @@ Track Settings is where you shape your sounds and configure how each track behav
 
 ## Quick Tips
 
-- Hold **Cpy/FX** to access quick parameter control with the touch strip
+- Hold ++cpy-fx++ to access quick parameter control with the touch strip
 - Preview sounds while editing by pressing track buttons
 - Use the touch strip for smooth parameter adjustments

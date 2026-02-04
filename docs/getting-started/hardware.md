@@ -36,7 +36,7 @@ The 16 numbered buttons (++1++ to ++16++) serve multiple purposes depending on t
 
 ### Special Button
 
-- **Cpy/FX** - Hold for Live FX access and copy/paste operations
+- ++cpy-fx++ - Hold for Live FX access and copy/paste operations
 
 ### Touch Strip
 

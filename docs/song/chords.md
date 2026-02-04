@@ -113,7 +113,7 @@ Use this to time:
 
 ### Lead Track (Track 5)
 
-- Steps use arpeggiator by default
+- Steps use [arpeggiator](../track-settings/arpeggiator.md) by default
 - Plays notes from the current chord
 - Melodies automatically harmonize
 
@@ -125,7 +125,7 @@ Use this to time:
 
 ### Other Tracks
 
-- Can be set to follow chords in Step Mode
+- Can be set to follow chords in [Step Mode](../modes/step-mode.md)
 - Drums typically use fixed notes
 
 ## Multiple Progressions
@@ -147,3 +147,10 @@ Use different progressions for different song sections:
 - Shorter lengths create energy
 - Watch the indicator to time your part changes
 - The Chords track is optional - bass and lead follow chords even without it
+
+## See Also
+
+- [Song Mode](../modes/song-mode.md) - Managing song parts
+- [Song Parts](parts.md) - Organizing your song structure
+- [Arpeggiator](../track-settings/arpeggiator.md) - How leads use chord notes
+- [Notes & Chords](../step-settings/notes.md) - Per-step note configuration

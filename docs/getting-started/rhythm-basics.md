@@ -1,0 +1,133 @@
+# Rhythm Basics
+
+This chapter introduces the fundamental concepts of rhythm and sequencing. No prior music experience is required.
+
+## What is Rhythm?
+
+Rhythm is simply a pattern of sounds over time. When you tap your foot to music, you're following its rhythm. Every song has a rhythm that repeats, making it predictable and easy to follow.
+
+## Tempo and BPM
+
+**Tempo** is how fast or slow the music plays. It's measured in **BPM** (Beats Per Minute).
+
+| BPM Range | Feel | Common Genres |
+|-----------|------|---------------|
+| 60-80 | Slow, relaxed | Ballads, ambient |
+| 80-100 | Moderate | Hip-hop, R&B |
+| 100-120 | Upbeat | Pop, house |
+| 120-140 | Energetic | Techno, EDM |
+| 140+ | Fast, intense | Drum & bass, hardcore |
+
+On the PGB-1, you can adjust tempo by holding ++play++ and pressing ++left++ or ++right++.
+
+## Beats and Bars
+
+Music is organized into **beats** and **bars** (also called measures):
+
+- A **beat** is a single pulse in the music - like one tap of your foot
+- A **bar** contains a fixed number of beats grouped together
+- Most electronic music uses **4 beats per bar** (called 4/4 time)
+
+When you count "1, 2, 3, 4, 1, 2, 3, 4..." along with music, each number is a beat, and each group of four is one bar.
+
+## Steps on a Sequencer
+
+The PGB-1 is a **step sequencer**. Instead of recording music in real-time, you place notes on a grid of **steps**.
+
+The 16 buttons on the PGB-1 represent 16 steps:
+
+```
+Steps:    1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+          |       |       |       |       |       |       |       |
+Beats:    1               2               3               4
+          |_______________|_______________|_______________|_______________|
+                                    One Bar
+```
+
+Each beat is divided into 4 steps, giving you fine control over note timing:
+
+| Steps | Position in Beat |
+|-------|------------------|
+| 1, 5, 9, 13 | On the beat (downbeat) |
+| 2, 6, 10, 14 | Second sixteenth note |
+| 3, 7, 11, 15 | Third sixteenth note (off-beat) |
+| 4, 8, 12, 16 | Fourth sixteenth note |
+
+!!! tip "Counting Steps"
+    Musicians often count sixteenth notes as "1-e-and-a, 2-e-and-a, 3-e-and-a, 4-e-and-a". Steps 1, 5, 9, 13 are the numbers; steps 3, 7, 11, 15 are the "and"s.
+
+## Common Drum Patterns
+
+Here are some classic patterns to get you started. An "X" means the step is active.
+
+### Four on the Floor (Kick on every beat)
+
+This is the foundation of house, techno, and disco:
+
+```
+Step:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+Kick:     X   -   -   -   X   -   -   -   X   -   -   -   X   -   -   -
+```
+
+### Backbeat (Snare on 2 and 4)
+
+Add snare on beats 2 and 4 for a driving feel:
+
+```
+Step:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+Kick:     X   -   -   -   X   -   -   -   X   -   -   -   X   -   -   -
+Snare:    -   -   -   -   X   -   -   -   -   -   -   -   X   -   -   -
+```
+
+### Off-Beat Hi-Hats
+
+Hi-hats on the off-beats (steps 3, 7, 11, 15) create movement:
+
+```
+Step:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+Kick:     X   -   -   -   X   -   -   -   X   -   -   -   X   -   -   -
+Snare:    -   -   -   -   X   -   -   -   -   -   -   -   X   -   -   -
+Hi-Hat:   -   -   X   -   -   -   X   -   -   -   X   -   -   -   X   -
+```
+
+### Eighth-Note Hi-Hats
+
+For a busier feel, add hi-hats on every other step:
+
+```
+Step:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+Hi-Hat:   X   -   X   -   X   -   X   -   X   -   X   -   X   -   X   -
+```
+
+## Shuffle and Swing
+
+Real drummers don't play with perfect timing. **Shuffle** (or swing) slightly delays the off-beat notes, making the rhythm feel more human and groovy.
+
+On the PGB-1, you can add shuffle to any track in [Track Mode](../modes/track-mode.md):
+
+1. Press ++track++ to enter Track Mode
+2. Navigate to the **Shuffle** page using ++right++
+3. Use ++up++ to increase the shuffle amount
+
+!!! note "Start Subtle"
+    A little shuffle goes a long way. Start with low values and increase until you feel the groove.
+
+## Patterns and Songs
+
+The PGB-1 organizes music at multiple levels:
+
+| Level | Description | PGB-1 Feature |
+|-------|-------------|---------------|
+| Step | A single note placement | Buttons 1-16 in [Step Mode](../modes/step-mode.md) |
+| Pattern | 16 steps that repeat | [Pattern Mode](../modes/pattern-mode.md) |
+| Song Part | Multiple patterns playing together | [Song Mode](../modes/song-mode.md) |
+| Song | A sequence of song parts | [Song Mode](../modes/song-mode.md) |
+
+This hierarchy lets you build complex music from simple building blocks.
+
+## Next Steps
+
+Now that you understand rhythm basics, you're ready to learn more:
+
+- [Sound Path](sound-path.md) - Understand how audio flows through the PGB-1
+- [Your First Project](first-project.md) - Step-by-step guide to making a beat

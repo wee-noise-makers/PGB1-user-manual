@@ -28,7 +28,7 @@ This sets the default sample for the track.
 
 ### Per-Step Sample Selection
 
-Using parameter locks, each step can play a different sample:
+Using [parameter locks](../step-settings/parameter-locks.md), each step can play a different sample:
 
 1. Enter Step Mode (++step++)
 2. Select a step
@@ -155,3 +155,10 @@ The 64 sample slots are shared across the project. Plan your sample allocation:
 
 - **Track 7**: Percussion loops or hits
 - **Track 8**: Melodic samples, vocals, or stabs
+
+## See Also
+
+- [Recording Samples](recording.md) - How to record your own samples
+- [Importing Samples](importing.md) - Load samples from your computer
+- [Parameter Locks](../step-settings/parameter-locks.md) - Per-step sample selection
+- [Sound Path](../getting-started/sound-path.md) - How sample audio is processed
