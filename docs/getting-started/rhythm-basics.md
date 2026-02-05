@@ -58,46 +58,31 @@ Each beat is divided into 4 steps, giving you fine control over note timing:
 
 ## Common Drum Patterns
 
-Here are some classic patterns to get you started. An "X" means the step is active.
+Here are some classic patterns to get you started. Each diagram shows 16 steps across one bar, with colored cells indicating active steps. Vertical lines separate the four beats.
 
 ### Four on the Floor (Kick on every beat)
 
-This is the foundation of house, techno, and disco:
+This is the foundation of house, techno, and disco - a kick drum on every beat (steps 1, 5, 9, 13):
 
-```
-Step:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
-Kick:     X   -   -   -   X   -   -   -   X   -   -   -   X   -   -   -
-```
+![Four on the floor pattern](../assets/images/pattern-four-on-floor.svg)
 
 ### Backbeat (Snare on 2 and 4)
 
-Add snare on beats 2 and 4 for a driving feel:
+Add snare on beats 2 and 4 (steps 5 and 13) for a driving feel:
 
-```
-Step:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
-Kick:     X   -   -   -   X   -   -   -   X   -   -   -   X   -   -   -
-Snare:    -   -   -   -   X   -   -   -   -   -   -   -   X   -   -   -
-```
+![Backbeat pattern](../assets/images/pattern-backbeat.svg)
 
 ### Off-Beat Hi-Hats
 
-Hi-hats on the off-beats (steps 3, 7, 11, 15) create movement:
+Hi-hats on the off-beats (steps 3, 7, 11, 15) create movement and groove:
 
-```
-Step:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
-Kick:     X   -   -   -   X   -   -   -   X   -   -   -   X   -   -   -
-Snare:    -   -   -   -   X   -   -   -   -   -   -   -   X   -   -   -
-Hi-Hat:   -   -   X   -   -   -   X   -   -   -   X   -   -   -   X   -
-```
+![Off-beat hi-hats pattern](../assets/images/pattern-offbeat-hats.svg)
 
 ### Eighth-Note Hi-Hats
 
-For a busier feel, add hi-hats on every other step:
+For a busier feel, add hi-hats on every other step (1, 3, 5, 7, 9, 11, 13, 15):
 
-```
-Step:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
-Hi-Hat:   X   -   X   -   X   -   X   -   X   -   X   -   X   -   X   -
-```
+![Eighth-note hi-hats pattern](../assets/images/pattern-eighth-hats.svg)
 
 ## Shuffle and Swing
 
