@@ -1,15 +1,36 @@
 # MIDI
 
-The PGB-1 can control external MIDI devices, allowing you to integrate it into larger setups.
+The PGB-1 features a hardware MIDI interface (TRS type A input and output) for
+connecting to external synthesizers, drum machines, and controllers, allowing
+you to integrate it into larger setups.
 
-## MIDI Overview
+## Output
 
-- Tracks 12-16 are configured as MIDI tracks by default
-- Any track can be switched to MIDI mode
-- MIDI is sent over USB
-- No traditional MIDI DIN connectors
+### Sending notes and CC to external gear
 
-## Enabling MIDI Mode
+Tracks 12 to 16 are assigned to external MIDI by default, but any of the 16
+tracks can be switched to **MIDI mode** in the track settings. When a track is
+in MIDI mode, its sequencer data is sent as standard MIDI messages through the
+MIDI output port instead of being routed to the internal synthesizer.
+
+Each MIDI mode track has the following configurable parameters:
+
+| Parameter       | Description                                        |
+|-----------------|----------------------------------------------------|
+| **MIDI Channel** | Output channel (1-16) for notes and CC messages   |
+| **CC A-D**       | Four assignable CC controller numbers (0-127)     |
+| **CC Labels**    | User labels for each CC controller                |
+
+**CC messages:** Each step has four CC slots (A, B, C, D). When a CC slot is
+enabled on a step, the corresponding CC message is sent using the controller
+number configured in the track settings. This allows per-step automation of
+external synth parameters.
+
+All the standard sequencer features work in MIDI mode: note modes (single note,
+chord, note-in-chord, arpeggiator), trigger conditions (always, fill,
+probability, x-of-y patterns), note repeats, and shuffle.
+
+#### Enabling MIDI Mode
 
 To switch a track to MIDI mode:
 
@@ -18,107 +39,111 @@ To switch a track to MIDI mode:
 3. Navigate to the last settings page (Track Mode)
 4. Use ++up++ / ++down++ to select MIDI
 
-## MIDI Output
+### MIDI Clock Output
 
-When a track is in MIDI mode:
+PGB-1 sends MIDI clock messages through the MIDI output port:
 
-- Steps trigger MIDI notes instead of internal sounds
-- Note values follow chord progressions (like internal tracks)
-- Velocity and other step parameters are transmitted
-- Pattern and song structure apply to MIDI output
+- **Timing Clock** (24 pulses per quarter note)
+- **Start** when playback begins
+- **Stop** when playback is stopped
 
-## USB MIDI Connection
-
-1. Connect PGB-1 to your computer or MIDI host
-2. The device appears as a USB MIDI device
-3. Route MIDI to your desired destination
-
-### Computer DAW
-
-1. Connect via USB
-2. Open your DAW (Ableton, Logic, FL Studio, etc.)
-3. Select PGB-1 as MIDI input
-4. Route to software instruments
-
-### Hardware Synthesizers
-
-Use a USB MIDI host or computer to route:
-
-1. PGB-1 USB → Computer/Host
-2. Computer/Host → Hardware synth MIDI input
-
-## MIDI Tracks
-
-### Default MIDI Tracks
-
-Tracks 12-16 are pre-configured for MIDI:
-
-| Track | Suggested Use |
-|-------|---------------|
-| 12 | External bass synth |
-| 13 | External lead |
-| 14 | External pad/chords |
-| 15 | External drums |
-| 16 | External FX/additional |
-
-### Converting Synth Tracks
-
-Any synth track can be converted to MIDI:
-
-1. This frees up internal synth resources
-2. Allows control of more external devices
-3. Patterns and steps still work the same
-
-## Chord Transmission
-
-When a MIDI track plays:
-
-- Note in Chord modes send the appropriate chord notes
-- Arpeggiator mode sends arpeggio notes
-- Chord mode (on supported tracks) sends full chords
-- Fixed notes send the specified MIDI note
-
-This means your external synths follow your chord progressions automatically.
-
-## Step Parameters via MIDI
-
-| Step Parameter | MIDI Equivalent |
-|----------------|-----------------|
-| Note | MIDI Note Number |
-| Velocity | MIDI Velocity |
-| Duration | Note On/Off timing |
-| Condition | Affects whether note is sent |
-
-## Tips
-
-### Latency
-
-USB MIDI can have slight latency. For tight timing:
-
-- Use hardware USB MIDI hosts when possible
-- Minimize computer audio buffer sizes
-- Test your specific setup
-
-### Multiple Destinations
-
-Use MIDI routing software to send different tracks to different destinations:
-
-- Track 12 → Bass synth
-- Track 13 → Lead synth
-- Track 14 → Drum machine
+MIDI clock output is enabled by default and can be toggled in the MIDI settings
+menu. Non-clock messages (notes, CC) are always sent regardless of this
+setting.
 
 ### Hybrid Setup
 
-Combine internal and external sounds:
+Connect the audio output of an external MIDI synths to the stereo line input of
+the PGB-1. The external synth sound will be mixed with the internal sound
+engines in a seamless hybrid setup. You can send the line input to one of the
+internal FX (Reverb, Overdrive, Bitcrusher).
 
-- Internal: Drums, samples
-- External: Bass, pads, leads
-- Best of both worlds
+![PGB-1 and MIDI synthesizer](../assets/images/PGB1-and-MIDI-synth.svg)
 
-### Recording
+## Input
 
-Send MIDI to a DAW to:
+![PGB-1 and MIDI controller](../assets/images/PGB1-and-MIDI-keyboard.svg)
 
-- Record performances for editing
-- Layer with other tracks
-- Apply computer-based processing
+### MIDI Clock Input
+
+PGB-1 can synchronize its sequencer to an external MIDI clock source. Upon
+receiving a **Start** or **Continue** message, the PGB-1 switches to external
+clock mode and follows incoming **Timing Clock** ticks until a **Stop** message
+is received. When using external clock, the play/stop actions and internal BPM
+settings are ignored.
+
+MIDI clock input is enabled by default and can be toggled in the **MIDI
+settings** menu.
+
+### Playing and recording notes
+
+Incoming MIDI **Note On**, **Note Off**, and **CC** messages are handled based
+on the MIDI channel:
+
+**Channel 1** -- Messages are routed to the currently selected (editing) track:
+
+- In **step edit mode**, a Note On writes the note value and velocity into the
+  current step. If the step had no trigger set, it is automatically set to
+  "Always".
+- In **performance mode**, notes and CC messages are played live through the
+  editing track's voice.
+
+**Channels 2-16** -- Messages are forwarded directly to the internal
+synthesizer. Each internal synth voice listens on a fixed channel:
+
+| Channel | Voice        |
+|---------|--------------|
+| 2       | Kick         |
+| 3       | Snare        |
+| 4       | Cymbal       |
+| 5       | Bass         |
+| 6       | Lead         |
+| 7       | Chord        |
+| 8       | Sample 1     |
+| 9       | Sample 2     |
+| 10      | Reverb       |
+| 11      | Overdrive    |
+| 12      | Bitcrusher   |
+
+This allows an external MIDI controller or DAW to play any of the PGB-1's synth
+voices directly by sending on the appropriate channel.
+
+Internal synth voices also support Control Change messages:
+
+| Setting            | Control Change | Values |
+|--------------------|----------------|--------|
+| Parameter 1        | 0              | 0-127 | 
+| Parameter 2        | 1              | 0-127 | 
+| Parameter 3        | 2              | 0-127 | 
+| Parameter 4        | 3              | 0-127 | 
+| Volume             | 4              | 0-100 | 
+| Pan                | 5              | 0-100 |
+| Engine             | 6              | 0-127 (depending on the list of engines implemented for the track)|
+| FX Send            | 7              | 0: Bypass, 1: Overdrive, 2: Reverb, 3: Bitcrusher|
+| LFO Rate           | 8              | 0-127 |
+| LFO Amplitude      | 9              | 0-127 |
+| LFO Amplitude Mode | 10             | 0: Positive, 1: Center, 2: Negative|
+| LFO Target         | 11             | 0: Param1, 1: Param2, 2: Param3, 3: Param4, 4: Volume, 5: Pan |
+| LFO Shape          | 12             | 0: Sine, 1: Triangle, 2: Ramp Up, 3: Ramp Down, 4: Exponential Up, 5 Exponential Down|
+| LFO Loop           | 13             | 0: Repeat, 1: One Shot |
+| LFO Sync           | 14             | 0: Disable, 1-127: Enable|
+
+Note that Volume, Pan, Engine and FX Send settings are not available for the FX
+tracks (Reverb, Overdrve, Bitcrusher)
+
+## Tips
+
+### Recording Tracks as MIDI
+
+Any synth track can be converted to MIDI, this means you can use MIDI output to
+record beats, melody, and patterns in your DAW.
+
+1. Connect PGB-1 MIDI output to your computer
+2. Turn every track in "MIDI mode" and assign a different MIDI channel to each
+of them
+3. Record the incoming MIDI in your DAW
+4. Press play to start internal sequencer
+
+If you want to only record a single track, set this track to solo (hold
+++play++, press ++track++, press the number of the track you want to record
+(++1++-++16++)).

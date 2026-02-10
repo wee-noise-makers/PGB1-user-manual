@@ -9,10 +9,10 @@ The PGB-1 is a portable, battery-powered music production device designed for cr
 - **16 Tracks** - 6 synth tracks, 2 sample tracks, 3 audio FX tracks, and 5 MIDI tracks
 - **16-Step Sequencer** - Create patterns up to 256 steps with pattern linking
 - **Multiple Synth Engines** - Dozens of sound engines for kicks, snares, hi-hats, bass, leads, and chords
-- **Sample Recording** - Record and edit samples directly on the device
+- **12 Song Parts** - Arrange your tracks into complete songs
 - **Chord Progressions** - Built-in chord system with automatic note mapping
 - **Live Performance FX** - Real-time effects for dynamic performances
-- **12 Song Parts** - Arrange your tracks into complete songs
+- **Sample Recording** - Record and edit samples directly on the device
 - **Battery Powered** - Create music anywhere with the built-in rechargeable battery
 
 ## Getting Started
@@ -22,6 +22,7 @@ New to the PGB-1? Start here:
 1. [Hardware Layout](getting-started/hardware.md) - Learn the buttons and controls
 2. [Power & Charging](getting-started/power.md) - Set up your device
 3. [Navigation Basics](getting-started/navigation.md) - Understand the interface
+4. [Rhythm Basics](getting-started/rhythm-basics.md) - fundamental concepts of rhythm and sequencing
 4. [Your First Project](getting-started/first-project.md) - Create your first beat
 
 ## Join the Community

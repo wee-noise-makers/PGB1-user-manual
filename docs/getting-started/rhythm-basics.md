@@ -1,6 +1,6 @@
 # Rhythm Basics
 
-This chapter introduces the fundamental concepts of rhythm and sequencing. No prior music experience is required.
+This chapter introduces the fundamental concepts of rhythm and sequencing.
 
 ## What is Rhythm?
 
@@ -36,17 +36,11 @@ The PGB-1 is a **step sequencer**. Instead of recording music in real-time, you 
 
 The 16 buttons on the PGB-1 represent 16 steps:
 
-```
-Steps:    1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
-          |       |       |       |       |       |       |       |
-Beats:    1               2               3               4
-          |_______________|_______________|_______________|_______________|
-                                    One Bar
-```
+![Steps, Beats, Bar](../assets/images/beats-and-steps.svg)
 
-Each beat is divided into 4 steps, giving you fine control over note timing:
+Each Bar is divided into 16 steps, giving you fine control over note timing:
 
-| Steps | Position in Beat |
+| Steps | Position in Bar |
 |-------|------------------|
 | 1, 5, 9, 13 | On the beat (downbeat) |
 | 2, 6, 10, 14 | Second sixteenth note |
@@ -66,7 +60,7 @@ This is the foundation of house, techno, and disco - a kick drum on every beat (
 
 ![Four on the floor pattern](../assets/images/pattern-four-on-floor.svg)
 
-### Backbeat (Snare on 2 and 4)
+### Backbeat
 
 Add snare on beats 2 and 4 (steps 5 and 13) for a driving feel:
 

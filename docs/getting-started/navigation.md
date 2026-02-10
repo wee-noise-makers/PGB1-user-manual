@@ -15,6 +15,8 @@ The PGB-1 uses a consistent navigation scheme across all menus and modes:
 
 ### Page Indicator
 
+![Navigation screenshot](../assets/images/navigation-screenshot.png)
+
 At the top of the screen, a **page indicator** shows:
 
 - How many pages of settings are available (dots)
@@ -28,6 +30,10 @@ In most modes, the screen displays:
 - **Top left**: Current track name
 - **Top right**: Current pattern and step numbers
 
+![Track name screenshot](../assets/images/track-name-screenshot.png)
+![Current pattern and step screenshot](../assets/images/current-pattern-and-step-screenshot.png)
+
+
 ## Menu Navigation
 
 ### Opening the Main Menu
@@ -39,8 +45,9 @@ Press ++menu++ to open the main menu. Use ++left++ and ++right++ to browse menu 
 The main menu contains:
 
 - **Projects** - Save, load, and create projects
-- **Inputs** - Configure audio inputs
 - **Custom Waveform** - Draw and edit waveforms
+- **Inputs** - Configure audio inputs
+- **MIDI Settings** - Configure MIDI interface
 - **Update Mode** - Enter firmware update mode
 - **System Info** - View firmware version
 
@@ -70,7 +77,8 @@ You can select items without changing the current mode by **holding** the mode b
 
 ## Edit Mode
 
-Press ++edit++ to toggle pattern edit mode. When edit mode is active:
+In Track or Step mode, press ++edit++ to toggle pattern edit mode. When edit
+mode is active:
 
 - The keyboard buttons (++1++ to ++16++) toggle steps on/off in the current pattern
 - Press ++edit++ again to exit edit mode

@@ -46,7 +46,7 @@ Copy the configured step to create consistent variation:
 1. Hold ++cpy-fx++
 2. Press ++step++ to enter step copy mode
 3. Press ++1++ to select the source step
-4. Press ++2++, ++5++, ++6++, ++9++, ++10++, ++13++, ++14++ to paste to those steps
+4. Press ++2++, ++6++, ++9++, ++10++, ++13++, ++14++ to paste to those steps
 
 ## Adding Shuffle
 

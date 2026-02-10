@@ -20,19 +20,10 @@ The PGB-1 features a built-in rechargeable battery that can be charged via USB T
 3. The status LED will glow **red** while charging
 4. When fully charged, the red LED will turn off
 
-### Charging Details
-
-| Specification | Value |
-|--------------|-------|
-| Full charge time | Approximately 1 hour 20 minutes |
-| Charging indicator | Red status LED |
-| Charge complete | Red LED turns off |
-
-!!! warning "Important"
-    New batteries must be fully charged before first use.
-
 !!! info "Battery Level Display"
-    During charging, the on-screen battery level indicator does not provide valid information about the state of charge. Only the red status LED indicates whether charging is in progress or complete.
+    During charging, the on-screen battery level indicator does not provide
+    valid information about the state of charge. Only the red status LED
+    indicates whether charging is in progress or complete.
 
 ## Power Tips
 
@@ -42,13 +33,6 @@ The PGB-1 features a built-in rechargeable battery that can be charged via USB T
 
 ## Troubleshooting Power Issues
 
-### Device Won't Turn Off
-
-If the device doesn't respond to the power switch:
-
-1. This indicates an unrecoverable software malfunction
-2. Use the [Reset Procedure](../system/troubleshooting.md#reset-procedure) to recover
-
 ### Device Won't Turn On
 
 If the device doesn't power on:
@@ -56,3 +40,11 @@ If the device doesn't power on:
 1. Ensure the battery is charged (connect to USB and check for red LED)
 2. Try the reset button with a paperclip
 3. If issues persist, contact support
+
+### Device Won't Turn Off
+
+If the device doesn't respond to the power switch:
+
+1. This indicates an unrecoverable software malfunction
+2. Use the [Reset Procedure](../system/troubleshooting.md#reset-procedure) to recover
+
