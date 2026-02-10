@@ -119,7 +119,7 @@ nav:
   - Audio & MIDI:
     - Audio Output: audio-midi/output.md
     - Audio Input: audio-midi/input.md
-    - Sound Path: system/sound-path.md
+    - Sound Path: audio-midi/sound-path.md
     - MIDI: audio-midi/midi.md
   - System:
     - Main Menu: system/menu.md

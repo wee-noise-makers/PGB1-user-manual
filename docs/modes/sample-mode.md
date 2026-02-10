@@ -17,7 +17,7 @@ When entering Sample Mode, you can choose:
 
 ### Step 1: Select Input Source
 
-Choose which input to record from:
+Choose which input to record from using the ++left++ and ++right++ buttons:
 
 | Input | Description |
 |-------|-------------|
@@ -44,8 +44,6 @@ Press ++a++ again to stop recording. The captured audio is displayed as a wavefo
 - Use ++left++ / ++right++ to move the start point
 - Use ++up++ / ++down++ to move the end point
 
-### Step 5: Preview
-
 The keyboard lights up showing available preview keys:
 
 | Button | Action |
@@ -55,13 +53,17 @@ The keyboard lights up showing available preview keys:
 | ++8++ | Preview one octave up |
 | Other keys | Preview at different pitches |
 
+Press ++a++ to continue, or ++b++ discard the current sample and start
+recording again.
+
 ### Step 6: Set Name
 
-Navigate to the name field and edit the sample name if desired.
+Enter a name for the sample (up to 15 characters).
+
+Press ++a++ to continue.
 
 ### Step 7: Save
 
-1. Press ++a++ to continue
 2. Select a sample slot (1-64)
 3. Press ++a++ to confirm
 4. Navigate to **Yes** and confirm
@@ -85,6 +87,7 @@ Navigate to the name field and edit the sample name if desired.
 - This provides better headroom and less noise
 - Use the waveform display to check levels
 
+
 ### Multiple Sounds in One Sample
 
 You can record multiple sounds in a single sample and use different start points per step:
@@ -93,12 +96,14 @@ You can record multiple sounds in a single sample and use different start points
 2. In Step Mode, use parameter locks to set different start points
 3. Each step can play a different portion of the sample
 
-This technique helps maximize the limited sample slots.
+This technique helps maximize usage of the sample memory.
 
 ### Sample Slots
 
-The PGB-1 has 64 sample slots. Samples are stored in project memory and persist when the device is turned off.
+The PGB-1 has 64 sample slots. Samples are shared across projects and persist
+when the device is turned off.
 
 ## Converting Audio Files
 
-You can import audio files from your computer using the online converter tool. See [Importing Samples](../sampling/importing.md) for details.
+You can import audio files from your computer using the online converter tool.
+See [Importing Samples](../sampling/importing.md) for details.

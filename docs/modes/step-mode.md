@@ -3,8 +3,11 @@
 Step mode allows you to configure each of the 16 steps for the selected pattern
 of the selected track, giving you detailed control over each note's parameters.
 In Step mode, pressing one of the ++1++ to ++16++ buttons will select the
-corresponding step and trigger it at the same time. The numbers of the selected
-pattern and step is shown at the top right of the screen.
+corresponding step and trigger it at the same time.
+
+In step mode, you are always editing steps of the selected pattern (see
+[Pattern mode](pattern-mode.md)) The numbers of the selected pattern and step
+is shown at the top right of the screen:
 
 ![Current pattern and step on screen](../assets/images/current-pattern-and-step-screenshot.png)
 

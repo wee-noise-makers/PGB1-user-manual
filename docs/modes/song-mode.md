@@ -1,6 +1,7 @@
 # Song Mode
 
-Song Mode is unique because it controls two things: **Song Parts** (arrangement) and **Chord Progressions** (harmony).
+Song Mode is unique because it controls two things: **Song Parts**
+(arrangement) and **Chord Progressions** (harmony).
 
 ## Entering Song Mode
 
@@ -8,7 +9,8 @@ Press ++song++ to enter Song Mode. The Song LED will light up.
 
 ## Song Parts (Buttons 1-12)
 
-Song Parts are sections of your song where you can specify which patterns play on which tracks.
+Song Parts are sections (intro, chorus, etc.) of your song where you can
+specify which patterns play on which tracks, and which track to mute.
 
 ### Selecting Song Parts
 
@@ -22,12 +24,7 @@ Song Parts are sections of your song where you can specify which patterns play o
 
 The screen displays a 16-cell grid representing all tracks:
 
-```
-[1][2][3][4]
-[5][6][7][8]
-[9][10][11][12]
-[13][14][15][16]
-```
+![Song mode on screen](../assets/images/song-mode-screenshot.png)
 
 Each cell shows which pattern will play for that track:
 
@@ -35,10 +32,9 @@ Each cell shows which pattern will play for that track:
 - **Empty**: Track is muted for this part
 
 Use ++up++ / ++down++ to change the pattern number.
-Press ++b++ to mute a track (empty cell).
-Press ++a++ to unmute.
+Press ++b++ to go to the bottom line of cells, ++a++ to go up
 
-#### Part Settings (Bottom of Screen)
+#### Song Part Settings (Bottom of Screen)
 
 Press ++b++ to move focus to the bottom settings:
 
@@ -46,7 +42,7 @@ Press ++b++ to move focus to the bottom settings:
 |---------|-------------|
 | Length | How many times the part repeats before allowing change |
 | Chords | Which chord progression to use (13-16) |
-| Link | Auto-advance to next part when complete |
+| Link | Auto-advance to next part when complete, got back to queued part, or loop on the this part |
 
 ## Chord Progressions (Buttons 13-16)
 
@@ -88,7 +84,8 @@ The last page offers random chord progression generation:
 
 ## Chord Progression Indicator
 
-While playing, small dots and an arrow on screen show your position in the chord progression. This helps you time part changes to land on specific chords.
+While playing, small dots and an arrow on screen show your position in the
+chord progression. This helps you time part changes to land on specific chords.
 
 The indicator also appears in the Cpy/FX menu for timing live effects.
 
