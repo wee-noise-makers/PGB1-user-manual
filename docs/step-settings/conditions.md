@@ -40,11 +40,50 @@ These work with the Live FX Fill modes.
 
 ### Repeat Conditions
 
-| Condition | Description |
-|-----------|-------------|
-| 1:2 | Plays every 2nd time the pattern loops |
-| 1:3 | Plays every 3rd time |
-| 1:4 | Plays every 4th time |
+Repeat conditions let you trigger a step on specific pattern loops within a cycle. The format is **X:Y** where:
+
+- **Y** = the cycle length (how many loops before the pattern repeats)
+- **X** = which loop within the cycle triggers the step
+
+For example, **2:3** means "play on loop 2 of every 3 loops."
+
+#### Available Repeat Conditions
+
+| Condition | Loop 1 | Loop 2 | Loop 3 | Loop 4 | Then repeats... |
+|-----------|:------:|:------:|:------:|:------:|-----------------|
+| 1:2       | ✓      | ·      | ✓      | ·      | every 2 loops   |
+| 2:2       | ·      | ✓      | ·      | ✓      | every 2 loops   |
+| 1:3       | ✓      | ·      | ·      | ✓      | every 3 loops   |
+| 2:3       | ·      | ✓      | ·      | ·      | every 3 loops   |
+| 3:3       | ·      | ·      | ✓      | ·      | every 3 loops   |
+| 1:4       | ✓      | ·      | ·      | ·      | every 4 loops   |
+| 2:4       | ·      | ✓      | ·      | ·      | every 4 loops   |
+| 3:4       | ·      | ·      | ✓      | ·      | every 4 loops   |
+| 4:4       | ·      | ·      | ·      | ✓      | every 4 loops   |
+
+(✓ = step plays, · = step is skipped)
+
+#### Practical Examples
+
+**Alternating notes (1:2 and 2:2)**
+
+Put two different notes on the same step position using parameter locks:
+
+- Step 5 with note C, condition 1:2
+- Step 5 with note E, condition 2:2
+
+Result: the step alternates between C and E on each loop.
+
+**Building variation over 4 bars**
+
+- Main hi-hat pattern: Always condition
+- Extra accent on step 8: condition 4:4
+
+Result: the accent only plays every 4th loop, creating a longer phrase.
+
+**Complementary patterns (1:3, 2:3, 3:3)**
+
+Use all three conditions on different tracks or notes to create interlocking parts that together form a complete cycle every 3 loops.
 
 These are useful for creating variation over multiple loops without changing patterns.
 

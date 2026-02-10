@@ -1,6 +1,12 @@
 # Step Mode
 
-Step Mode allows you to configure individual steps in a pattern, giving you detailed control over each note's parameters.
+Step mode allows you to configure each of the 16 steps for the selected pattern
+of the selected track, giving you detailed control over each note's parameters.
+In Step mode, pressing one of the ++1++ to ++16++ buttons will select the
+corresponding step and trigger it at the same time. The numbers of the selected
+pattern and step is shown at the top right of the screen.
+
+![Current pattern and step on screen](../assets/images/current-pattern-and-step-screenshot.png)
 
 ## Entering Step Mode
 
@@ -30,36 +36,45 @@ Determines when the step plays. See [Trigger Conditions](../step-settings/condit
 | Never | Step never plays |
 | Percent (25%, 50%, 75%) | Random chance to play |
 | Always | Step always plays |
-| Fill | Only plays when Fill FX is active |
-| Not Fill | Only plays when Fill FX is not active |
-| 1:2, 1:3, 1:4 | Plays every 2nd, 3rd, or 4th time |
+| Fill | Plays when Fill FX is active |
+| Not Fill | Plays when Fill FX is not active |
+| X:Y (1:2, 2:2, 1:3, 2:3, etc.) | Plays on the Xth occurrence within every Y pattern loops |
 
-### Page 2: Note
+### Page 2: Note Stetings
+
+#### Note
 
 Set what note the step plays. See [Notes & Chords](../step-settings/notes.md) for details:
 
 | Option | Description |
 |--------|-------------|
-| Chord | Play the full chord (Chords track only) |
+| Fixed Note | Play a specific MIDI note |
 | Note in Chord (1-4) | Play specific chord note |
 | Arpeggiator | Use the track's arpeggiator setting |
-| Fixed Note | Play a specific MIDI note |
+| Chord | Play the full chord |
 
 Use ++a++ to cycle through note modes.
 
-### Page 3: Octave Offset
+!!! info "Octave Offset"
+    In note modes "Note in Chord", "Arpeggiator", and "Chord", the notes can be
+    shifted up or down by one or multiple octaves. This is shown as, for
+    example, `+1oct` or `-2oct`.
 
-Shift the note up or down by octaves from the chord's octave.
+!!! info "Playing full chords"
+    From the internal synth engines, only the Chord track can play multiple
+    notes simultaneously (polyphony). Therefore it's the only internal track
+    where the "Chord" note mode makes sense. However, you can use "Chord" note
+    mode with external polyphonic MIDI instruments.
 
-### Page 4: Duration
+#### Duration
 
 Set how long the note plays.
 
-### Page 5: Velocity
+#### Velocity
 
 Set the note's intensity/volume. Use the touch strip for precise control.
 
-### Page 6: Repeat
+### Page 3: Repeat
 
 Create note repeats (retrigs) within the step:
 
@@ -68,9 +83,11 @@ Create note repeats (retrigs) within the step:
 | Count | Number of repeats |
 | Rate | Speed of repeats |
 
-### Page 7+: Parameter Locks
+### Page 4: Parameter Locks
 
-Set per-step values for synth parameters. This allows each step to have different sound settings. See [Parameter Locks](../step-settings/parameter-locks.md) for details.
+Set per-step values for synth parameters. This allows each step to have
+different sound settings. See [Parameter
+Locks](../step-settings/parameter-locks.md) for details.
 
 ## Working with Steps
 
@@ -89,13 +106,13 @@ Parameter locks let you change synth parameters for individual steps:
 3. Adjust the parameter value
 4. The step will now play with that specific parameter value
 
-This is powerful for sample tracks where you can select different samples per step.
+This is powerful for sample tracks where you can select different samples per
+step.
 
 ## Tips
 
-- Use velocity variations to create groove and dynamics
-- Combine trigger conditions with [copy/paste](../performance/copy-paste.md) for complex patterns
-- Use parameter locks to play different samples on each step of a [sample track](../sampling/sample-tracks.md)
+- Use velocity variations to create groove and dynamics Use parameter locks to
+- play different samples on each step of a [sample track](../sampling/sample-tracks.md)
 
 ## See Also
 

@@ -26,7 +26,8 @@ Check for new firmware at:
 - Latest firmware .uf2 file downloaded
 
 !!! danger "Critical"
-    Never turn off the PGB-1 or unplug the USB cable during a firmware update. This may leave the device in an invalid state.
+    Never turn off the PGB-1 or unplug the USB cable during a firmware update.
+    This may leave the device in an invalid and **unrecoverable** state.
 
 ### Step 1: Connect and Enter Update Mode
 
@@ -37,7 +38,12 @@ Check for new firmware at:
 5. Press ++a++ to enter
 6. Press ++right++ then ++a++ to confirm
 
-The device reboots into update mode. The LEDs display "UP".
+The device reboots into update mode. The LEDs display "UP" in green.
+
+!!! info "Alternative (since firmware 1.2.0)"
+    Starting with firmware version 1.2.0, it is possible to enter Update mode
+    by holding the ++menu++ button while powering on the device. The LEDs
+    display "UP" in red.
 
 ### Step 2: Transfer the Firmware
 
@@ -54,17 +60,30 @@ The device reboots into update mode. The LEDs display "UP".
 ## User Data
 
 !!! info "Data Preserved"
-    Firmware updates do not erase your projects or samples. Your data remains intact after updating.
+    Firmware updates do not erase your projects or samples. Your data remains
+    intact after updating.
+
+## Reset Procedure
+
+Use when the device is unresponsive or won't turn off.
+
+1. Locate the Reset button (leftmost hole on the bottom edge)
+2. Use a paperclip to press the button
+3. The device will restart
+
+!!! warning "Unsaved Changes"
+    Changes to the current project will not be saved when resetting.
 
 ## Forced Firmware Update Procedure
 
-If the normal update fails or the device is unresponsive, use this recovery procedure.
+!!! warning "Unsaved Changes"
+    Because of a hardware glitch, this procedure is not available for the first
+    batch of PGB-1. However, starting with firmware version 1.2.0, it is
+    possible to enter Update mode by holding the ++menu++ button while powering
+    on the device.
 
-### When to Use
-
-- Device won't boot normally
-- Standard update procedure fails
-- Device is stuck or frozen
+Use when the device won't boot normally, standard update procedure fails, or
+the device is stuck or froze.
 
 ### Prerequisites
 
@@ -82,17 +101,6 @@ If the normal update fails or the device is unresponsive, use this recovery proc
 6. Drag and drop the firmware file
 7. Wait for reboot
 
-## Reset Procedure
-
-Use when the device is unresponsive or won't turn off.
-
-1. Locate the Reset button (leftmost hole on the bottom edge)
-2. Use a paperclip to press the button
-3. The device will restart
-
-!!! warning "Unsaved Changes"
-    Changes to the current project will not be saved when resetting.
-
 ## Troubleshooting Updates
 
 ### RPI-RP2 Drive Doesn't Appear
@@ -104,7 +112,7 @@ Use when the device is unresponsive or won't turn off.
 
 ### Update Seems Stuck
 
-- Wait at least 30 seconds
+- Wait at least 5 minutes
 - Do not unplug the cable
 - If nothing happens, use Reset then try Forced Update
 
@@ -117,7 +125,8 @@ Use when the device is unresponsive or won't turn off.
 
 ### Device Won't Start After Failed Update
 
-Use the [Forced Firmware Update Procedure](#forced-firmware-update-procedure) to recover.
+Use the [Forced Firmware Update Procedure](#forced-firmware-update-procedure)
+to recover.
 
 ## Best Practices
 

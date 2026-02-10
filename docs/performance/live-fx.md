@@ -149,7 +149,7 @@ While holding ++cpy-fx++, the touch strip controls the currently selected track 
 
 ## See Also
 
-- [Sound Path](../getting-started/sound-path.md) - Where Live FX fit in the audio chain
+- [Sound Path](../audio-midi/sound-path.md) - Where Live FX fit in the audio chain
 - [Trigger Conditions](../step-settings/conditions.md) - Setting up Fill conditions
 - [Chord Progressions](../song/chords.md) - Using the chord indicator
 - [Shortcuts](shortcuts.md) - Quick reference for all controls

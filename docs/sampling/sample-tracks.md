@@ -161,4 +161,4 @@ The 64 sample slots are shared across the project. Plan your sample allocation:
 - [Recording Samples](recording.md) - How to record your own samples
 - [Importing Samples](importing.md) - Load samples from your computer
 - [Parameter Locks](../step-settings/parameter-locks.md) - Per-step sample selection
-- [Sound Path](../getting-started/sound-path.md) - How sample audio is processed
+- [Sound Path](../audio-midi/sound-path.md) - How sample audio is processed

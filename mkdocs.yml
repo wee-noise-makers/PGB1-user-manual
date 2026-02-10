@@ -84,7 +84,6 @@ nav:
     - Power & Charging: getting-started/power.md
     - Navigation Basics: getting-started/navigation.md
     - Rhythm Basics: getting-started/rhythm-basics.md
-    - Sound Path: getting-started/sound-path.md
     - Your First Project: getting-started/first-project.md
   - Main Modes:
     - Overview: modes/index.md
@@ -120,6 +119,7 @@ nav:
   - Audio & MIDI:
     - Audio Output: audio-midi/output.md
     - Audio Input: audio-midi/input.md
+    - Sound Path: system/sound-path.md
     - MIDI: audio-midi/midi.md
   - System:
     - Main Menu: system/menu.md

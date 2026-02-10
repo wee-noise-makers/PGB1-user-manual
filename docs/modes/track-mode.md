@@ -1,6 +1,16 @@
 # Track Mode
 
-Track Mode is where you configure the sounds and settings for each of the 16 tracks on the PGB-1.
+Track mode allows you to configure the 16 tracks of the PGB-1. By default,
+tracks 1 to 6 are synths tracks (Kick, Snare, Hihat, Bass, Lead, Chords),
+tracks 7 and 8 are sample tracks, tracks 9 to 11 are audio FX tracks, and
+tracks 12 to 16 are MIDI tracks. Note that all tracks can be configured to MIDI
+mode and control external devices ([more details here](../audio-midi/midi.md)).
+In Track mode, pressing one of the ++1++ to ++16++ buttons will select the
+corresponding track and trigger a "preview" note for this track. The name of
+the selected track is shown at the top left of the screen.
+
+
+![Track name on screen](../assets/images/track-name-screenshot.png)
 
 ## Entering Track Mode
 
@@ -36,11 +46,17 @@ To select a track **without** playing a preview:
 
 ## Track Settings Pages
 
-Navigate between pages using ++left++ and ++right++. Each track has multiple settings pages:
+Navigate between pages using ++left++ and ++right++. Each track has multiple
+settings pages, and different pages depending on the track type (synth, FX,
+MIDI).
+
+Here is the list of pages for synth tracks:
 
 ### Page 1: Synth Engine
 
-Select the sound engine for the track. Use ++up++ and ++down++ to scroll through available engines. See [Synth Engines](../track-settings/synth-engines.md) for a complete list.
+Select the sound engine for the track. Use ++up++ and ++down++ to scroll
+through available engines. See [Synth
+Engines](../track-settings/synth-engines.md) for a complete list.
 
 ### Page 2: Engine Parameters
 
@@ -70,14 +86,13 @@ Set the stereo position of the track.
 Select a global mixing effect for the track:
 
 - None (bypass)
-- Drive
+- Overdrive
 - Reverb
-- Filter
-- Beat Crusher
+- Bitcrusher
 
 ### Page 7: Octave
 
-Shift the track up or down by octaves.
+Shift every notes of the track up or down by octaves.
 
 ### Page 8: Shuffle
 
@@ -104,7 +119,6 @@ Switch between internal synth mode and external MIDI controller mode.
 ## Tips
 
 - Use the touch strip for precise parameter adjustment
-- Hold ++cpy-fx++ to access a quick parameter control during playback
 - Preview sounds while adjusting parameters by pressing track buttons
 
 ## See Also
@@ -112,4 +126,4 @@ Switch between internal synth mode and external MIDI controller mode.
 - [Track Settings Overview](../track-settings/index.md) - Detailed track configuration
 - [Synth Engines](../track-settings/synth-engines.md) - Complete engine list
 - [Mixing](../track-settings/mixing.md) - Volume, panning, and effects
-- [Sound Path](../getting-started/sound-path.md) - How audio flows through the PGB-1
+- [Sound Path](../audio-midi/sound-path.md) - How audio flows through the PGB-1

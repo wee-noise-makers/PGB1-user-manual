@@ -4,11 +4,14 @@ This chapter introduces the fundamental concepts of rhythm and sequencing.
 
 ## What is Rhythm?
 
-Rhythm is simply a pattern of sounds over time. When you tap your foot to music, you're following its rhythm. Every song has a rhythm that repeats, making it predictable and easy to follow.
+Rhythm is simply a pattern of sounds over time. When you tap your foot to
+music, you're following its rhythm. Every song has a rhythm that repeats,
+making it predictable and easy to follow.
 
 ## Tempo and BPM
 
-**Tempo** is how fast or slow the music plays. It's measured in **BPM** (Beats Per Minute).
+**Tempo** is how fast or slow the music plays. It's measured in **BPM** (Beats
+  Per Minute).
 
 | BPM Range | Feel | Common Genres |
 |-----------|------|---------------|
@@ -18,7 +21,8 @@ Rhythm is simply a pattern of sounds over time. When you tap your foot to music,
 | 120-140 | Energetic | Techno, EDM |
 | 140+ | Fast, intense | Drum & bass, hardcore |
 
-On the PGB-1, you can adjust tempo by holding ++play++ and pressing ++left++ or ++right++.
+On the PGB-1, you can adjust tempo by holding ++play++ and pressing ++left++ or
+++right++.
 
 ## Beats and Bars
 
@@ -28,17 +32,23 @@ Music is organized into **beats** and **bars** (also called measures):
 - A **bar** contains a fixed number of beats grouped together
 - Most electronic music uses **4 beats per bar** (called 4/4 time)
 
-When you count "1, 2, 3, 4, 1, 2, 3, 4..." along with music, each number is a beat, and each group of four is one bar.
+When you count "1, 2, 3, 4, 1, 2, 3, 4..." along with music, each number is a
+beat, and each group of four is one bar.
 
 ## Steps on a Sequencer
 
-The PGB-1 is a **step sequencer**. Instead of recording music in real-time, you place notes on a grid of **steps**.
+The PGB-1 features a **step sequencer**. Instead of recording music in
+real-time, you place notes on a patterns of **steps** and the sequencer will
+play the steps one after the other give the selected tempo (BPM).
 
-The 16 buttons on the PGB-1 represent 16 steps:
+The default length of a pattern is one bar, divided into 16 steps:
 
 ![Steps, Beats, Bar](../assets/images/beats-and-steps.svg)
 
-Each Bar is divided into 16 steps, giving you fine control over note timing:
+On the PGB-1 they are aranged in two lines 8 steps. Each of the buttons ++1++
+to ++16++ represent a step of the pattern.
+
+![PGB-1 16 step keyboard](../assets/images/PGB1-16-steps-keyboard.svg)
 
 | Steps | Position in Bar |
 |-------|------------------|
@@ -98,9 +108,8 @@ The PGB-1 organizes music at multiple levels:
 | Level | Description | PGB-1 Feature |
 |-------|-------------|---------------|
 | Step | A single note placement | Buttons 1-16 in [Step Mode](../modes/step-mode.md) |
-| Pattern | 16 steps that repeat | [Pattern Mode](../modes/pattern-mode.md) |
+| Pattern | 16 steps that repeat (can be linked for longer motifs) | [Pattern Mode](../modes/pattern-mode.md) |
 | Song Part | Multiple patterns playing together | [Song Mode](../modes/song-mode.md) |
-| Song | A sequence of song parts | [Song Mode](../modes/song-mode.md) |
 
 This hierarchy lets you build complex music from simple building blocks.
 
@@ -108,5 +117,4 @@ This hierarchy lets you build complex music from simple building blocks.
 
 Now that you understand rhythm basics, you're ready to learn more:
 
-- [Sound Path](sound-path.md) - Understand how audio flows through the PGB-1
 - [Your First Project](first-project.md) - Step-by-step guide to making a beat
