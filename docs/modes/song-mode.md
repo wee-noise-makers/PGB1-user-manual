@@ -24,7 +24,9 @@ specify which patterns play on which tracks, and which track to mute.
 
 The screen displays a 16-cell grid representing all tracks:
 
-![Song mode on screen](../assets/images/song-mode-screenshot.png)
+![Song mode on screen](../assets/images/song-mode-screenshot.png){ width="400" }
+/// caption
+///
 
 Each cell shows which pattern will play for that track:
 

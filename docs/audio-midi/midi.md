@@ -58,11 +58,15 @@ the PGB-1. The external synth sound will be mixed with the internal sound
 engines in a seamless hybrid setup. You can send the line input to one of the
 internal FX (Reverb, Overdrive, Bitcrusher).
 
-![PGB-1 and MIDI synthesizer](../assets/images/PGB1-and-MIDI-synth.svg)
+![PGB-1 and MIDI synthesizer](../assets/images/PGB1-and-MIDI-synth.svg){ width="300" }
+/// caption
+///
 
 ## Input
 
-![PGB-1 and MIDI controller](../assets/images/PGB1-and-MIDI-keyboard.svg)
+![PGB-1 and MIDI controller](../assets/images/PGB1-and-MIDI-keyboard.svg){ width="300" }
+/// caption
+///
 
 ### MIDI Clock Input
 

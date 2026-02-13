@@ -1,8 +1,15 @@
 # PGB-1 User Manual
 
-Welcome to the official user manual for the **Wee Noise Makers PGB-1 Pocket Groove Box**.
+Welcome to the official user manual for the **Wee Noise Makers PGB-1**.
 
-The PGB-1 is a portable, battery-powered music production device designed for creating beats, melodies, and complete tracks on the go. With its intuitive interface, powerful synth engines, and comprehensive sequencing capabilities, the PGB-1 puts professional music production in your pocket.
+The PGB-1 is a portable, battery-powered music production device designed for
+creating beats, melodies, and complete tracks on the go. With its intuitive
+interface, powerful synth engines, and comprehensive sequencing capabilities,
+the PGB-1 puts professional music production in your pocket.
+
+![PGB-1](assets/images/wnm-pgb-1-product-image.png){ width="500" }
+/// caption
+///
 
 ## Key Features
 
@@ -36,16 +43,25 @@ Connect with other PGB-1 users and stay updated:
 
 The PGB-1 comes with built-in demo projects to help you explore its capabilities:
 
-- **"Lost1"** (Lost one) by AA Battery Music
-- **"Noxis"** in collaboration with Technoval
-- **"Dark (#1)"** based on BroBeatzTV's dark trap tutorial
-- **"Echo (#2)"** based on Alice Efe's downtempo tutorial
+- **"Lost1"** (Lost one) by [AA Battery Music](https://www.aabattery.de/)
+- **"Noxis"** in collaboration with [Technoval](https://soundcloud.com/technoval)
+- **"Dark (#1)"** based on [BroBeatzTV's dark trap tutorial](https://www.youtube.com/watch?v=PdESI3Ds7LM)
+- **"Echo (#2)"** based on [Alice Efe's downtempo tutorial](https://www.youtube.com/watch?v=3zIsQfKtUno)
 
-Load a demo project from the menu: ++menu++ > **Projects** > **Load**
+Load a demo project from the menu: ++menu++ > **Projects** > **Load**. Once the
+project is loaded, you can press the ++play++ button to start the sequencer.
+Most demo projects contain several "song parts", these are sections of a song
+with different patterns, chords, or instruments enabled (intro, chorus, break,
+outro, etc.).
+
+To change the song part, press the ++song++ button to enter [Song
+mode](modes/song-mode.md), then press button ++2++ to queue part two. It can
+take some time for the new part to start playing as the sequencer will wait for
+the full run of the current part before switching to the new one. Get familiar
+with each part and perform your own version of the track. You can also jump in
+[Track mode](modes/track-mode.md) and tweak the synths parameters.
 
 ## Firmware Updates
 
-Keep your PGB-1 up to date with the latest features and improvements. Check the [Firmware Updates](system/firmware.md) section for instructions.
-
-!!! tip "Stay Updated"
-    Join the Discord server or follow Wee Noise Makers on social media to receive notifications about new firmware releases.
+Keep your PGB-1 up to date with the latest features and improvements. Check the
+[Firmware Updates](system/firmware.md) section for instructions.

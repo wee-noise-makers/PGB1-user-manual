@@ -15,7 +15,9 @@ The PGB-1 uses a consistent navigation scheme across all menus and modes:
 
 ### Page Indicator
 
-![Navigation screenshot](../assets/images/navigation-screenshot.png)
+![Navigation screenshot](../assets/images/navigation-screenshot.png){ width="500" }
+/// caption
+///
 
 At the top of the screen, a **page indicator** shows:
 
@@ -30,8 +32,12 @@ In most modes, the screen displays:
 - **Top left**: Current track name
 - **Top right**: Current pattern and step numbers
 
-![Track name screenshot](../assets/images/track-name-screenshot.png)
-![Current pattern and step screenshot](../assets/images/current-pattern-and-step-screenshot.png)
+![Track name screenshot](../assets/images/track-name-screenshot.png){ width="300" }
+/// caption
+///
+![Current pattern and step screenshot](../assets/images/current-pattern-and-step-screenshot.png){ width="300" }
+/// caption
+///
 
 
 ## Menu Navigation

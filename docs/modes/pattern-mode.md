@@ -15,7 +15,9 @@ bass track.
 
 The numbers of the selected pattern is shown at the top right of the screen:
 ![Current pattern and step on
-screen](../assets/images/current-pattern-and-step-screenshot.png)
+screen](../assets/images/current-pattern-and-step-screenshot.png){ width="400" }
+/// caption
+///
 
 ## Entering Pattern Mode
 
@@ -62,7 +64,9 @@ Use ++up++/++down++ to enable/ disable linking.
  - A line between two boxes is visible when they are linked together
  - The box corresponding to the currently playing pattern is blinking
 
-![Pattern link on screen](../assets/images/pattern-link-screenshot.png)
+![Pattern link on screen](../assets/images/pattern-link-screenshot.png){ width="400" }
+/// caption
+///
 
 ### LED Indicators
 

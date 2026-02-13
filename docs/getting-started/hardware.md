@@ -1,6 +1,8 @@
 # Hardware Layout
 
-![PGB-1 hardware layout](../assets/images/PGB1-front-black-n-white-with-labels_svg-raw.png)
+![PGB-1 hardware layout](../assets/images/PGB1-front-black-n-white-with-labels.svg)
+/// caption
+///
 
 ## Front Panel
 

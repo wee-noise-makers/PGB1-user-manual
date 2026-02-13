@@ -44,11 +44,15 @@ play the steps one after the other give the selected tempo (BPM).
 The default length of a pattern is one bar, divided into 16 steps:
 
 ![Steps, Beats, Bar](../assets/images/beats-and-steps.svg)
+/// caption
+///
 
 On the PGB-1 they are aranged in two lines 8 steps. Each of the buttons ++1++
 to ++16++ represent a step of the pattern.
 
 ![PGB-1 16 step keyboard](../assets/images/PGB1-16-steps-keyboard.svg)
+/// caption
+///
 
 | Steps | Position in Bar |
 |-------|------------------|
@@ -69,24 +73,32 @@ Here are some classic patterns to get you started. Each diagram shows 16 steps a
 This is the foundation of house, techno, and disco - a kick drum on every beat (steps 1, 5, 9, 13):
 
 ![Four on the floor pattern](../assets/images/pattern-four-on-floor.svg)
+/// caption
+///
 
 ### Backbeat
 
 Add snare on beats 2 and 4 (steps 5 and 13) for a driving feel:
 
 ![Backbeat pattern](../assets/images/pattern-backbeat.svg)
+/// caption
+///
 
 ### Off-Beat Hi-Hats
 
 Hi-hats on the off-beats (steps 3, 7, 11, 15) create movement and groove:
 
 ![Off-beat hi-hats pattern](../assets/images/pattern-offbeat-hats.svg)
+/// caption
+///
 
 ### Eighth-Note Hi-Hats
 
 For a busier feel, add hi-hats on every other step (1, 3, 5, 7, 9, 11, 13, 15):
 
 ![Eighth-note hi-hats pattern](../assets/images/pattern-eighth-hats.svg)
+/// caption
+///
 
 ## Shuffle and Swing
 

@@ -9,7 +9,9 @@ In step mode, you are always editing steps of the selected pattern (see
 [Pattern mode](pattern-mode.md)) The numbers of the selected pattern and step
 is shown at the top right of the screen:
 
-![Current pattern and step on screen](../assets/images/current-pattern-and-step-screenshot.png)
+![Current pattern and step on screen](../assets/images/current-pattern-and-step-screenshot.png){ width="400" }
+/// caption
+///
 
 ## Entering Step Mode
 

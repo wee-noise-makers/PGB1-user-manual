@@ -10,7 +10,9 @@ corresponding track and trigger a "preview" note for this track. The name of
 the selected track is shown at the top left of the screen.
 
 
-![Track name on screen](../assets/images/track-name-screenshot.png)
+![Track name on screen](../assets/images/track-name-screenshot.png){ width="400" }
+/// caption
+///
 
 ## Entering Track Mode
 
@@ -55,8 +57,8 @@ Here is the list of pages for synth tracks:
 ### Page 1: Synth Engine
 
 Select the sound engine for the track. Use ++up++ and ++down++ to scroll
-through available engines. See [Synth
-Engines](../reference/engines.md) for a complete list.
+through available engines. See [Synth Engines](../reference/engines.md) for a
+complete list.
 
 ### Page 2: Engine Parameters
 
