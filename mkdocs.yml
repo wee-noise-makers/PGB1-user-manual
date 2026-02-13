@@ -6,24 +6,40 @@ site_url: https://weenoisemakers.com/pgb-1
 theme:
   name: material
   palette:
-    - scheme: slate
-      primary: deep purple
-      accent: cyan
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: green
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-auto
         name: Switch to light mode
-    - scheme: default
-      primary: deep purple
-      accent: cyan
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: green
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: green
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
   features:
+    - navigation.instant
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
     - search.suggest
     - search.highlight
+    - search.share
     - content.tabs.link
   icon:
     logo: material/music-box
@@ -71,6 +87,7 @@ plugins:
   - search
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/EAmAgsmV5V
@@ -78,6 +95,9 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/weenoisemakers
       name: Follow on Instagram
+    - icon: fontawesome/brands/github
+      link: https://github.com/wee-noise-makers
+      name: Github
 
 nav:
   - Home: index.md
