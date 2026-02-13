@@ -19,13 +19,17 @@ When entering Sample Mode, you can choose:
 
 Choose which input to record from using the ++left++ and ++right++ buttons:
 
-| Input | Description |
-|-------|-------------|
-| Line In | External audio via 3.5mm jack |
-| Internal Mic | Built-in microphone |
-| Headset Mic | Microphone on connected headset |
+| Input | Description | Best For |
+|-------|-------------|----------|
+| Line In | 3.5mm stereo jack input | External devices, synths, phones |
+| Internal Mic | Built-in microphone | Voice, ambient sounds |
+| Headset Mic | Microphone on connected headset | Voice recording |
 
-Use ++up++ / ++down++ to adjust input gain.
+Use ++up++ / ++down++ to adjust the input volume before recording.
+
+!!! tip "Best Practice"
+    For line input, keep the PGB-1 gain low and increase the volume on your
+    source device. This provides better headroom and less noise.
 
 ### Step 2: Start Recording
 
@@ -83,20 +87,24 @@ Press ++a++ to continue.
 
 ### Recording Quality
 
-- For line input, keep PGB-1 gain low and increase volume on the source device
-- This provides better headroom and less noise
+- Use line in when possible for cleaner signals
+- For line input, keep PGB-1 gain low and increase volume on the source device.
+  This provides better headroom and less noise
 - Use the waveform display to check levels
-
 
 ### Multiple Sounds in One Sample
 
-You can record multiple sounds in a single sample and use different start points per step:
+You can record multiple sounds in a single sample:
 
-1. Record a sample containing two or more sounds
-2. In Step Mode, use parameter locks to set different start points
-3. Each step can play a different portion of the sample
+1. Start recording
+2. Play sound 1
+3. Wait briefly
+4. Play sound 2
+5. Stop recording
 
-This technique helps maximize usage of the sample memory.
+Then use [parameter locks](step-mode.md) to set different start points per
+step, effectively getting multiple samples from one slot. This technique helps
+maximize usage of the sample memory.
 
 ### Sample Slots
 
@@ -106,4 +114,4 @@ when the device is turned off.
 ## Converting Audio Files
 
 You can import audio files from your computer using the online converter tool.
-See [Importing Samples](../sampling/importing.md) for details.
+See [Importing Samples](../deep-dive/importing-samples.md) for details.

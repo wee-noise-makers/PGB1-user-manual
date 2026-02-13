@@ -1,6 +1,7 @@
 # Importing Samples
 
-You can convert audio files from your computer into PGB-1 compatible samples using the online converter tool.
+You can convert audio files from your computer into PGB-1 compatible samples
+using the online converter tool.
 
 ## Using the Online Converter
 
@@ -34,7 +35,7 @@ Choose which slot (1-64) to save the sample to.
 
 Click **Export** to download the converted file.
 
-The file will be a `.uf2` file named something like `pgb1-sample.uf2`.
+The file will be have a `.pgb1sampleuf2` extension.
 
 ## Transferring to PGB-1
 
@@ -51,7 +52,7 @@ The PGB-1 displays "UP" on the keyboard LEDs.
 ### Step 2: Transfer the File
 
 1. The PGB-1 appears as a USB drive called **RPI-RP2**
-2. Drag and drop the `.uf2` file into the drive
+2. Drag and drop the `.pgb1sampleuf2` file into the drive
 3. Wait for the PGB-1 to reboot
 
 ### Step 3: Verify
@@ -59,9 +60,6 @@ The PGB-1 displays "UP" on the keyboard LEDs.
 1. Go to a sample track (7 or 8)
 2. Navigate to the sample selection
 3. Your new sample should be in the slot you selected
-
-!!! tip "Good USB Cable"
-    Use a high-quality USB cable for reliable transfers.
 
 ## Converting Tips
 
@@ -71,41 +69,7 @@ Before converting, consider:
 
 - **Trim** your audio to remove silence
 - **Normalize** levels for consistent volume
-- **Convert to mono** if your source is stereo (or let the tool do it)
-- Keep samples **under 2 seconds**
-
-### Recommended Audio Editors
-
-- **Audacity** (free, cross-platform)
-- **Adobe Audition**
-- **Logic Pro / GarageBand** (Mac)
-- **Ableton Live**
-
-### Batch Processing
-
-For multiple samples:
-
-1. Prepare and export each sample
-2. Select different slots for each
-3. Transfer all `.uf2` files one at a time
-
-## Organizing Your Sample Library
-
-### Sample Slot Strategy
-
-| Slots | Content |
-|-------|---------|
-| 1-16 | Drums (kicks, snares, hats) |
-| 17-32 | Percussion |
-| 33-48 | Melodic (bass, stabs, chords) |
-| 49-64 | FX (risers, impacts, vocals) |
-
-### Project-Specific Samples
-
-Each project can use the same sample slots. Consider having:
-
-- A core library that stays constant
-- Project-specific samples in designated slots
+- Keep samples **under 2 seconds** (the widget will trucate it for you)
 
 ## Troubleshooting
 
@@ -114,9 +78,3 @@ Each project can use the same sample slots. Consider having:
 - Ensure you selected the correct slot
 - Check that the transfer completed (PGB-1 rebooted)
 - Try the transfer again with a different cable
-
-### Audio Quality Issues
-
-- Start with high-quality source audio
-- Avoid over-compressing before conversion
-- Check your original file plays correctly

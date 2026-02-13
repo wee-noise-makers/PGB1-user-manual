@@ -11,7 +11,7 @@ Quick reference for all PGB-1 keyboard shortcuts.
 | Increase BPM | Hold ++play++ + Press ++right++ |
 | Decrease BPM | Hold ++play++ + Press ++left++ |
 
-## Track Control
+## Mute/Solo
 
 | Action | Shortcut |
 |--------|----------|
@@ -89,34 +89,8 @@ Quick reference for all PGB-1 keyboard shortcuts.
 | Copy Pattern | Hold ++cpy-fx++ + ++pattern++ + source + dest |
 | Copy Step | Hold ++cpy-fx++ + ++step++ + source + dest |
 
-## Menu Navigation
-
-| Action | Button |
-|--------|--------|
-| Open Menu | ++menu++ |
-| Navigate Left/Right | ++left++ / ++right++ |
-| Change Value | ++up++ / ++down++ |
-| Confirm/Select | ++a++ |
-| Back/Cancel | ++b++ |
-
-## Playback
-
-| Action | Button |
-|--------|--------|
-| Play/Stop | ++play++ |
-| Queue Song Part | (In Song Mode) Press ++1++-++12++ |
-
 ## Quick Parameter Control
 
 | Action | Shortcut |
 |--------|----------|
 | Live Parameter Adjustment | Hold ++cpy-fx++ + Use Touch Strip |
-
-## Sample Recording
-
-| Action | Shortcut |
-|--------|----------|
-| Start/Stop Recording | ++a++ (in Sample Mode) |
-| Adjust Start Point | ++left++ / ++right++ (in Sample Edit) |
-| Adjust End Point | ++up++ / ++down++ (in Sample Edit) |
-| Preview at Different Pitches | Press keyboard buttons (in Sample Edit) |

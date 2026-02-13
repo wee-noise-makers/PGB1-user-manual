@@ -32,7 +32,7 @@ Navigate between pages using ++left++ and ++right++:
 
 ### Page 1: Trigger Condition
 
-Determines when the step plays. See [Trigger Conditions](../step-settings/conditions.md) for details:
+Determines when the step plays.
 
 | Condition | Description |
 |-----------|-------------|
@@ -43,20 +43,37 @@ Determines when the step plays. See [Trigger Conditions](../step-settings/condit
 | Not Fill | Plays when Fill FX is not active |
 | X:Y (1:2, 2:2, 1:3, 2:3, etc.) | Plays on the Xth occurrence within every Y pattern loops |
 
-### Page 2: Note Stetings
+Some examples of Xth within Y pattern loops:
+
+| Condition | Loop 1 | Loop 2 | Loop 3 | Loop 4 | Loop 5 | Loop 6 |   
+|-----------|:------:|:------:|:------:|:------:|:------:|:------:|   
+| 1:2       | ✓      | ·      | ✓      | ·      | ✓      | ·      |   
+| 2:2       | ·      | ✓      | ·      | ✓      | ·      | ✓      |   
+| 1:3       | ✓      | ·      | ·      | ✓      | ·      | ·      |   
+| 2:3       | ·      | ✓      | ·      | ·      | ✓      | ·      |   
+
+(✓ = step plays, · = step is skipped)
+
+### Page 2: Note Settings
 
 #### Note
 
-Set what note the step plays. See [Notes & Chords](../step-settings/notes.md) for details:
+Set what note the step plays:
 
 | Option | Description |
 |--------|-------------|
-| Fixed Note | Play a specific MIDI note |
-| Note in Chord (1-4) | Play specific chord note |
+| Fixed Note | Play a specific MIDI note regardless of current chord|
+| Note in Chord (1-4) | Play specific note from the currernt chord |
 | Arpeggiator | Use the track's arpeggiator setting |
-| Chord | Play the full chord |
+| Chord | Play the full current chord |
 
 Use ++a++ to cycle through note modes.
+
+Default Track Behavior:
+
+- **Bass Track**: Steps play the chord root note by default
+- **Lead Track**: Steps use the arpeggiator by default
+- **Chords Track**: Steps play the full chord
 
 !!! info "Octave Offset"
     In note modes "Note in Chord", "Arpeggiator", and "Chord", the notes can be
@@ -88,9 +105,16 @@ Create note repeats (retrigs) within the step:
 
 ### Page 4: Parameter Locks
 
-Set per-step values for synth parameters. This allows each step to have
-different sound settings. See [Parameter
-Locks](../step-settings/parameter-locks.md) for details.
+Parameter locks allow you to set different synth parameters for individual
+steps, enabling sound variations within a single pattern. Normally, all steps
+in a pattern use the track's synth settings, parameter locks let you override
+specific parameters on a per-step basis.
+
+This is especialy powerful for sample tracks where you can select different
+samples per step.
+
+Press ++up++/++down++ or use the touch strip to set the value of the selected
+parameter lock. Use ++b++ to disable the selected parameter lock on the step.
 
 ## Working with Steps
 
@@ -100,26 +124,12 @@ Locks](../step-settings/parameter-locks.md) for details.
 2. Press ++1++ to ++16++ to toggle steps on/off
 3. Press ++edit++ again to exit edit mode
 
-### Using Parameter Locks
-
-Parameter locks let you change synth parameters for individual steps:
-
-1. Select a step in Step Mode
-2. Navigate to the parameter lock pages (after velocity/repeat)
-3. Adjust the parameter value
-4. The step will now play with that specific parameter value
-
-This is powerful for sample tracks where you can select different samples per
-step.
-
 ## Tips
 
-- Use velocity variations to create groove and dynamics Use parameter locks to
-- play different samples on each step of a [sample track](../sampling/sample-tracks.md)
-
-## See Also
-
-- [Step Settings Overview](../step-settings/index.md) - Detailed step configuration
-- [Trigger Conditions](../step-settings/conditions.md) - Probability and conditional triggers
-- [Notes & Chords](../step-settings/notes.md) - Note selection and chord integration
-- [Parameter Locks](../step-settings/parameter-locks.md) - Per-step sound variations
+ - Use velocity variations to create groove and dynamics Use parameter locks to
+ - play different samples on each step of a [sample track](../deep-dive/sample-tracks.md)
+ - Use Fill conditions to add controlled complexity during performance
+ - Creates subtle, varying ghost notes:
+    - Add hi-hat or snare steps
+    - Set condition to 50% or 75%
+    - Set velocity low

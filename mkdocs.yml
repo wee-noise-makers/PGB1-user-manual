@@ -63,6 +63,9 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - search
@@ -92,30 +95,17 @@ nav:
     - Pattern Mode: modes/pattern-mode.md
     - Song Mode: modes/song-mode.md
     - Sample Mode: modes/sample-mode.md
-  - Track Settings:
-    - Overview: track-settings/index.md
-    - Synth Engines: track-settings/synth-engines.md
-    - LFO: track-settings/lfo.md
-    - Mixing: track-settings/mixing.md
-    - Arpeggiator: track-settings/arpeggiator.md
-  - Step Settings:
-    - Overview: step-settings/index.md
-    - Trigger Conditions: step-settings/conditions.md
-    - Notes & Chords: step-settings/notes.md
-    - Parameter Locks: step-settings/parameter-locks.md
-  - Pattern Settings: patterns.md
-  - Song & Chords:
-    - Song Parts: song/parts.md
-    - Chord Progressions: song/chords.md
-  - Sampling:
-    - Recording Samples: sampling/recording.md
-    - Importing Samples: sampling/importing.md
-    - Sample Tracks: sampling/sample-tracks.md
-  - Live Performance:
-    - Live FX: performance/live-fx.md
-    - Copy & Paste: performance/copy-paste.md
-    - Shortcuts: performance/shortcuts.md
-  - Custom Waveforms: custom-waveforms.md
+  - Deep Dive:
+    - LFO: deep-dive/lfo.md
+    - Live FX: deep-dive/live-fx.md
+    - Copy & Paste: deep-dive/copy-paste.md
+    - Mixing: deep-dive/mixing.md
+    - Arpeggiator: deep-dive/arpeggiator.md
+    - Projects: deep-dive/projects.md
+    - Importing Samples: deep-dive/importing-samples.md
+    - Sample Tracks: deep-dive/sample-tracks.md
+    - Custom Waveforms: deep-dive/custom-waveforms.md
+    - Shortcuts: deep-dive/shortcuts.md
   - Audio & MIDI:
     - Audio Output: audio-midi/output.md
     - Audio Input: audio-midi/input.md
@@ -127,4 +117,4 @@ nav:
     - Troubleshooting: system/troubleshooting.md
   - Reference:
     - Synth Engine List: reference/engines.md
-    - Warranty: reference/warranty.md
+    - Warranty & Support: reference/warranty.md

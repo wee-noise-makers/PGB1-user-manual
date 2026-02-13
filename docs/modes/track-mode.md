@@ -56,7 +56,7 @@ Here is the list of pages for synth tracks:
 
 Select the sound engine for the track. Use ++up++ and ++down++ to scroll
 through available engines. See [Synth
-Engines](../track-settings/synth-engines.md) for a complete list.
+Engines](../reference/engines.md) for a complete list.
 
 ### Page 2: Engine Parameters
 
@@ -64,7 +64,7 @@ Four parameters specific to the selected synth engine. Parameters vary by engine
 
 ### Page 3: LFO
 
-Configure the [Low Frequency Oscillator](../track-settings/lfo.md):
+Configure the [Low Frequency Oscillator](../deep-dive/lfo.md):
 
 | Parameter | Description |
 |-----------|-------------|
@@ -100,7 +100,7 @@ Add swing to the track timing. Higher values delay even-numbered steps.
 
 ### Page 9: Arpeggiator Mode
 
-Set how the [arpeggiator](../track-settings/arpeggiator.md) plays chord notes:
+Set how the [arpeggiator](../deep-dive/arpeggiator.md) plays chord notes:
 
 - Up
 - Down
@@ -110,7 +110,7 @@ Set how the [arpeggiator](../track-settings/arpeggiator.md) plays chord notes:
 
 ### Page 10: Arpeggiator Notes
 
-Configure which notes the [arpeggiator](../track-settings/arpeggiator.md) uses.
+Configure which notes the [arpeggiator](../deep-dive/arpeggiator.md) uses.
 
 ### Page 11: Track Mode
 
@@ -123,7 +123,6 @@ Switch between internal synth mode and external MIDI controller mode.
 
 ## See Also
 
-- [Track Settings Overview](../track-settings/index.md) - Detailed track configuration
-- [Synth Engines](../track-settings/synth-engines.md) - Complete engine list
-- [Mixing](../track-settings/mixing.md) - Volume, panning, and effects
+- [Synth Engines](../reference/engines.md) - Complete engine list
+- [Mixing](../deep-dive/mixing.md) - Volume, panning, and effects
 - [Sound Path](../audio-midi/sound-path.md) - How audio flows through the PGB-1

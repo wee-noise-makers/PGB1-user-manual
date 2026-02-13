@@ -27,7 +27,7 @@
 ### Keyboard Section
 
 The 16 numbered buttons (++1++ to ++16++) serve multiple purposes depending on
-the current mode (see [Main Modes](../../modes)).
+the current mode (see [Main Modes](../modes/index.md)).
 
 ### Control Buttons
 

@@ -1,6 +1,7 @@
 # Live FX
 
-The PGB-1 features 16 live effects that can be activated during playback for dynamic performances.
+The PGB-1 features 16 live effects that can be activated during playback for
+dynamic performances.
 
 ## Accessing Live FX
 
@@ -26,7 +27,9 @@ Create note repeats at different speeds:
 | ++3++ | Roll Quarter | Slow rolls (quarter notes) |
 | ++4++ | Roll Beat | Slowest rolls (whole beat) |
 
-Hold the button to sustain the roll effect.
+Press the button to start the effect, press again to stop. When a roll effect
+is enable, you can press another roll effect button to directly switch to
+another speed.
 
 ### Fill Effects
 
@@ -34,10 +37,13 @@ Add or modify steps automatically:
 
 | Button | Effect | Description |
 |--------|--------|-------------|
-| ++9++ | Fill Steps | Triggers steps with ["Fill" condition](../step-settings/conditions.md) |
-| ++10++ | Auto-fill Low | Random fills, lower probability |
-| ++11++ | Auto-fill High | Random fills, higher probability |
-| ++12++ | Auto-fill Build-up | Increasing fill intensity |
+| ++9++  | Fill Steps | Triggers steps with ["Fill" condition](../modes/step-mode.md) on any tracks |
+| ++10++ | Auto-fill Low | Random fills on drum tracks, lower probability |
+| ++11++ | Auto-fill High | Random fills on drum tracks, higher probability |
+| ++12++ | Auto-fill Build-up | Increasing random fill intensity  on drum tracks |
+
+The auto-fill effects work with drum tracks (Kikc, Snare, Hihat) while the Fill
+Steps can be used on any track.
 
 ## Mixing Effects
 
@@ -68,58 +74,51 @@ Animated filter effects:
 | ++8++ | Stutter 1 | Short audio repeat effect |
 | ++16++ | Stutter 2 | Variation of stutter |
 
-## Effect Rules
-
-### One Effect Per Category
+## One Effect Per Category
 
 Only one effect of the same type can be active at a time:
 
 - Enabling a filter cancels other filters
 - Enabling a roll cancels other rolls
-- Enabling an auto-fill cancels other auto-fills
+- Enabling a fill cancels other fills
 
-### Combining Effects
+## Combining Effect Categories
 
 You can combine effects from different categories:
 
-- Roll + Filter = Filtered rolls
-- Fill + Stutter = Glitchy fills
-- Filter Sweep + Roll = Building tension
-
-## Using Live FX
-
-### Basic Performance
-
-1. Start your sequence (++play++)
-2. Hold ++cpy-fx++
-3. Press effect buttons to toggle on/off
-4. Release ++cpy-fx++ when done
-
-### Building Tension
-
-1. Start with Auto-fill Build-up (++12++)
-2. Add HP Filter Sweep (++15++)
-3. At the drop, release both
-
-### Creating Breakdowns
-
-1. Enable Low Pass Filter (++5++)
-2. Gradually increase filter (touch strip or repeat)
-3. Add Fill Steps (++9++) near the end
-4. Release for impact
-
-### Quick Fills
-
-- Tap ++9++ briefly for one-shot fills
-- Steps with "Fill" condition will trigger once
+- Roll + Filter
+- Fill + Stutter
+- Filter Sweep + Roll
+- Etc.
 
 ## Chord Progression Indicator
 
-While holding ++cpy-fx++, the [chord progression](../song/chords.md) indicator appears on screen. Use this to time your effects to land on specific chord changes.
+While holding ++cpy-fx++, the [chord progression](../modes/song-mode.md)
+indicator appears on screen. Use this to time your effects to land on specific
+chord changes.
 
 ## Quick Parameter Control
 
-While holding ++cpy-fx++, the touch strip controls the currently selected track parameter. This lets you perform parameter changes during Live FX.
+While holding ++cpy-fx++, the touch strip controls a single parameter for a
+selected track. This lets you perform parameter changes during Live FX.
+
+With this feature you can control one of:
+
+ - Synth parameter 1
+ - Synth parameter 2
+ - Synth parameter 3
+ - Synth parameter 4
+ - LFO Rate
+ - LFO Amplitude
+ - Volume
+ - Stereo Pan
+ - Shuffle
+
+To change the selected track, use the ++left++ or ++right++ buttons while
+holding ++cpy-fx++.
+
+To change the selected parameter, use the ++up++ or ++down++ buttons while
+holding ++cpy-fx++.
 
 ## Performance Tips
 
@@ -141,15 +140,9 @@ While holding ++cpy-fx++, the touch strip controls the currently selected track 
 - Release effects on strong beats
 - Combine with song part changes for maximum impact
 
-### Practice
-
-- Learn the button positions by feel
-- Practice effect combinations
-- Develop your own performance style
-
 ## See Also
 
 - [Sound Path](../audio-midi/sound-path.md) - Where Live FX fit in the audio chain
-- [Trigger Conditions](../step-settings/conditions.md) - Setting up Fill conditions
-- [Chord Progressions](../song/chords.md) - Using the chord indicator
+- [Trigger Conditions](../modes/step-mode.md) - Setting up Fill conditions
+- [Chord Progressions](../modes/song-mode.md) - Using the chord indicator
 - [Shortcuts](shortcuts.md) - Quick reference for all controls

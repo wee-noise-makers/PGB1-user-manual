@@ -62,10 +62,10 @@ Press ++play++ to hear your creation!
 
 Now that you've created your first beat, try:
 
-- [Adding a bass line](../track-settings/synth-engines.md) on Track 4
-- [Creating a melody](../step-settings/notes.md) on Track 5
-- [Setting up chord progressions](../song/chords.md)
-- [Using Live FX](../performance/live-fx.md) for performance
+- [Adding a bass line](../reference/engines.md) on Track 4
+- [Creating a melody](../modes/step-mode.md) on Track 5
+- [Setting up chord progressions](../modes/song-mode.md)
+- [Using Live FX](../deep-dive/live-fx.md) for performance
 
 ## Quick Reference
 

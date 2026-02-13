@@ -91,6 +91,7 @@ The indicator also appears in the Cpy/FX menu for timing live effects.
 
 ## Tips
 
+- Use the random chord generator for inspiration
 - Use different chord progressions for different song sections
 - The bass track automatically follows chord root notes
 - Lead tracks use the arpeggiator over the current chord

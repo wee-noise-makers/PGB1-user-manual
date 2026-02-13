@@ -82,27 +82,30 @@ Each track follows the same signal path but has different synth engines availabl
 The journey begins with the **step sequencer**. When a step is active and its
 conditions are met, it sends a note trigger with:
 
-- Note pitch (fixed, from the [arpeggiator](../track-settings/arpeggiator.md), or [chord progression](../song/chords.md))
-- Velocity (how hard the note is played)
-- Any [parameter locks](../step-settings/parameter-locks.md) for that step
+- Note pitch (fixed, from the [arpeggiator](../deep-dive/arpeggiator.md), or
+- [chord progression](../modes/song-mode.md)) Velocity (how hard the note is
+- played) Any [parameter locks](../modes/step-mode.md) for that
+- step
 
 ### 2. Synth Engine
 
-The [synth engine](../track-settings/synth-engines.md) converts note triggers and parameters into actual audio.
-Each track type has multiple engines to choose from (sine kicks, FM basses,
-etc.). The engine produces a **mono** audio signal.
+The [synth engine](../reference/engines.md) converts note triggers
+and parameters into actual audio. Each track type has multiple engines to
+choose from (sine kicks, FM basses, etc.). The engine produces a **mono** audio
+signal.
 
-The [LFO](../track-settings/lfo.md) (Low Frequency Oscillator) can modulate synth parameters at this
-stage, creating movement and variation in the sound.
+The [LFO](../deep-dive/lfo.md) (Low Frequency Oscillator) can modulate synth
+parameters at this stage, creating movement and variation in the sound.
 
 ### 3. Volume and Panning
 
-After synthesis, the audio passes through [mixing controls](../track-settings/mixing.md):
+After synthesis, the audio passes through [mixing controls](../deep-dive/mixing.md):
 
 - **Volume control** - Sets the track's loudness in the mix
 - **Stereo panning** - Places the sound left, right, or center
 
-The LFO can also modulate volume and panning for tremolo and auto-pan effects.
+The [LFO](../deep-dive/lfo.md) can also modulate volume and panning for tremolo
+and auto-pan effects.
 
 ### 4. FX Routing
 
@@ -144,38 +147,13 @@ The PGB-1 has three audio inputs:
 All three inputs can:
 
 - Pass through to the output with one effect applied
-- Be [recorded as samples](../sampling/recording.md) for the sampler tracks
+- Be [recorded as samples](../modes/sample-mode.md) for the sampler tracks
 
-Audio inputs route to the same FX buses as the internal tracks, allowing you to apply reverb or other effects to incoming audio.
-
-## Practical Tips
-
-### Mixing Balance
-
-Since there's no master limiter, be careful with levels:
-
-- Keep individual track volumes moderate
-- Use the bypass FX bus for sounds that don't need processing
-- Lower the volume of tracks with heavy effects like reverb
-
-### Effect Grouping
-
-Think about which tracks should share effects:
-
-- Route kick and bass to bypass or overdrive for punch
-- Route hi-hats and leads to reverb for space
-- Use bitcrusher on synths for lo-fi character
-
-### LFO Routing
-
-The LFO is per-track and can target:
-
-- Synth engine parameters (P1-P4)
-- Track volume (for tremolo)
-- Stereo panning (for auto-pan)
+Audio inputs route to the same FX buses as the internal tracks, allowing you to
+apply reverb or other effects to incoming audio.
 
 ## Next Steps
 
-- [Your First Project](first-project.md) - Apply this knowledge to create a beat
-- [Track Settings](../track-settings/index.md) - Deep dive into synth engines and mixing
-- [Live FX](../performance/live-fx.md) - Learn to control effects during performance
+- [Your First Project](../getting-started/first-project.md) - Apply this knowledge to create a beat
+- [Track Settings](../modes/track-mode.md) - Deep dive into synth engines and mixing
+- [Live FX](../deep-dive/live-fx.md) - Learn to control effects during performance

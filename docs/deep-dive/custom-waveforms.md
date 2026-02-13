@@ -69,51 +69,13 @@ This enables real-time sound design during performance.
 - The waveform is saved with the project
 - Different projects can have different custom waveforms
 
-## Design Tips
-
-### Basic Shapes
+## Basic Shapes
 
 - **Sine-like**: Smooth curves for soft, warm sounds
 - **Square-like**: Flat tops/bottoms for hollow, reedy sounds
 - **Sawtooth-like**: Diagonal slopes for bright, buzzy sounds
 - **Triangle-like**: Symmetrical slopes for smooth, flute-like sounds
 
-### Adding Harmonics
-
-- Sharp corners add high frequencies
-- Smooth curves produce fewer harmonics
-- Asymmetry creates even harmonics
-
-### Creative Approaches
-
-- Start with a preset and modify
-- Draw random shapes and discover sounds
-- Create subtle variations of classic waves
-- Design waveforms specifically for certain musical parts
-
-## Waveform Characteristics
-
-| Shape Feature | Sound Characteristic |
-|---------------|---------------------|
-| Smooth curves | Soft, warm, mellow |
-| Sharp angles | Bright, harsh, edgy |
-| Symmetrical | Pure, flute-like |
-| Asymmetrical | Complex, rich harmonics |
-| Simple shape | Clean, focused |
-| Complex shape | Textured, evolving |
-
-## Workflow Example
-
-1. Start with a sine-like preset
-2. Add a slight notch in the middle
-3. Round off the peaks
-4. Test with different engines
-5. Fine-tune while listening
-
 ## Tips
 
-- Small changes can have big effects on sound
-- The pluck engine emphasizes waveform detail
-- The phaser engine creates movement from static waveforms
 - Use the touch strip for quick, expressive drawing
-- Save your project to preserve your waveform
